@@ -1,0 +1,913 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8d2ab2ae-c8fe-480d-b05f-7661553ddb7f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SpiritBoi_Library:LD1117"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LD1117"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "IVS_FOOTPRINTS:SOT233"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.rhydolabz.com/documents/LD1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 1.5V fixed output, TO-252"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?252*TabPin2* *SOT233"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LD1117_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LD1117_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 141.605 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3424229b-e2fc-4b4c-b44d-0ceb8aa9c751")
+	)
+	(junction
+		(at 141.605 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dd0103a-c325-46e5-bf80-b5b9a23114fb")
+	)
+	(junction
+		(at 116.84 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2ba4526-b173-4764-9c9f-961fffe8a529")
+	)
+	(junction
+		(at 154.94 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4574e66-5391-483f-85c3-9d213b8903cf")
+	)
+	(junction
+		(at 104.775 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b522b1a2-36a5-4322-b52b-63ce2c65a8ba")
+	)
+	(junction
+		(at 116.84 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbf19736-1997-4e05-a0d5-8198e1dd57e8")
+	)
+	(junction
+		(at 129.54 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db9c60f8-b2c6-4509-929d-e32fd34d6c7e")
+	)
+	(wire
+		(pts
+			(xy 141.605 110.49) (xy 141.605 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c131f90-286a-4d3f-843a-4f8bc39153fc")
+	)
+	(wire
+		(pts
+			(xy 104.775 96.52) (xy 104.775 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3065fcaa-3595-4c4e-aa86-30867d69dec8")
+	)
+	(wire
+		(pts
+			(xy 104.775 110.49) (xy 116.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f0ae7d-dac8-4193-910b-000683818739")
+	)
+	(wire
+		(pts
+			(xy 141.605 110.49) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372899d9-8604-4154-9927-767baadc7714")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f35afcc-10d0-4ba9-b307-d23da66932ec")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 129.54 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ffbb9c0-22bb-4d7c-bc2a-010112e55266")
+	)
+	(wire
+		(pts
+			(xy 116.84 107.95) (xy 116.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7d45b1-dba4-4789-b42d-881a96e36534")
+	)
+	(wire
+		(pts
+			(xy 101.6 96.52) (xy 104.775 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa834ac-80d7-4c41-b9be-17130b9327ce")
+	)
+	(wire
+		(pts
+			(xy 154.94 96.52) (xy 141.605 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6092d38e-49d7-4c09-b402-43cd4ea6546c")
+	)
+	(wire
+		(pts
+			(xy 154.94 110.49) (xy 154.94 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9d9f81-21c8-441b-8ee5-6fa6a5511bbc")
+	)
+	(wire
+		(pts
+			(xy 104.775 110.49) (xy 104.775 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943d1208-9aa8-4b8b-ba3e-11b2ce92f84e")
+	)
+	(wire
+		(pts
+			(xy 104.775 96.52) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cac8062-4d9a-4669-89d7-0aaeeb2bee4b")
+	)
+	(wire
+		(pts
+			(xy 116.84 110.49) (xy 129.54 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4fad951-646c-41ab-819c-96a16666d4af")
+	)
+	(wire
+		(pts
+			(xy 141.605 96.52) (xy 141.605 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd62b74c-be8d-4b73-9132-3224f1491ac4")
+	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 141.605 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09ef0b1-e4ab-435a-8940-8bb832103d53")
+	)
+	(wire
+		(pts
+			(xy 161.29 96.52) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c143e960-9471-414a-936d-efcdad9200a3")
+	)
+	(wire
+		(pts
+			(xy 141.605 96.52) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c320e733-4941-464d-b8d1-d2218cc991fb")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 116.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d821f90a-2d96-4e91-8967-537c048d0fad")
+	)
+	(wire
+		(pts
+			(xy 154.94 96.52) (xy 154.94 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87c9f06-2a61-4403-ae8b-70889781a9fd")
+	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbae838-3655-4f87-a421-3be57e2196ee")
+	)
+	(hierarchical_label "VI"
+		(shape passive)
+		(at 101.6 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f58551e-d482-4d6a-9234-db039c243a64")
+	)
+	(hierarchical_label "Ground"
+		(shape passive)
+		(at 129.54 114.3 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b39e4f8b-c575-4b07-b48b-2037927fd157")
+	)
+	(hierarchical_label "V3.3"
+		(shape passive)
+		(at 161.29 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f522a225-262b-4577-9c0e-c7d4e924ccdf")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39b8ea5e-3470-44cb-aed1-0d50f5b43414")
+		(property "Reference" "C31"
+			(at 158.75 102.2349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 158.75 104.7749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SpiritBoi_Footprint_Library:C_0805"
+			(at 155.9052 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "919c3564-de95-4517-a3bc-d920adf10383")
+		)
+		(pin "2"
+			(uuid "c9e72fbe-c494-4188-b2c8-780be809f738")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/cc5280f4-7fa8-4863-971e-00bd976ef479"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77a82297-ca6b-481e-a97b-23763ed3ab5f")
+		(property "Reference" "C29"
+			(at 120.65 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 120.65 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SpiritBoi_Footprint_Library:C_0805"
+			(at 117.8052 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a387a9f2-2c69-40d5-85ac-bbe0577d88e3")
+		)
+		(pin "2"
+			(uuid "09d802a0-0a3a-4503-b470-1eaef03e2a35")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/cc5280f4-7fa8-4863-971e-00bd976ef479"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.775 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0022b41-9dc4-439d-9e1d-b5018ea89ffe")
+		(property "Reference" "C28"
+			(at 107.95 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 107.95 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SpiritBoi_Footprint_Library:C_0805"
+			(at 105.7402 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.775 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.775 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aec9cceb-343e-438b-a918-4db623419f1c")
+		)
+		(pin "2"
+			(uuid "ebc80f73-ec8a-4900-b379-86bb88d59301")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/cc5280f4-7fa8-4863-971e-00bd976ef479"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SpiritBoi_Library:LD1117")
+		(at 129.54 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2c587fb-d878-4800-aa41-a09da6bf0705")
+		(property "Reference" "U10"
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD1117"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SpiritBoi_Footprint_Library:SOT233"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rhydolabz.com/documents/LD1117.pdf"
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 1.5V fixed output, TO-252"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f06ca41-2fd9-452d-b133-3dbe18c496e8")
+		)
+		(pin "2"
+			(uuid "2d89d0dc-a19e-4ea8-82a7-bcf1a68b49ba")
+		)
+		(pin "3"
+			(uuid "b0baf4b9-87cf-4bac-83bc-429abdeb0f24")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/cc5280f4-7fa8-4863-971e-00bd976ef479"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 141.605 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d69e0856-b2dd-422e-ba2c-69b3593cc9fb")
+		(property "Reference" "C30"
+			(at 144.78 102.2349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 144.78 104.7749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SpiritBoi_Footprint_Library:C_0805"
+			(at 142.5702 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 141.605 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 141.605 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd7dd512-ca1e-40c1-a9d9-84855ba6c873")
+		)
+		(pin "2"
+			(uuid "5fa05873-1b0c-47cb-b6fc-3c114339d1e2")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/cc5280f4-7fa8-4863-971e-00bd976ef479"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
