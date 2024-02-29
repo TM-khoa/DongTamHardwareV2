@@ -1105,6 +1105,12 @@
 		(uuid "217a11d0-7491-4af7-9ac2-5aa67917f64b")
 	)
 	(junction
+		(at 109.22 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2af28c9b-f98a-4922-96bb-e74a1e061529")
+	)
+	(junction
 		(at 78.105 36.195)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1127,12 +1133,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "717464dd-089d-4499-8c10-08bc31a9b031")
-	)
-	(junction
-		(at 109.22 114.935)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90bdb4ab-9107-4d57-b067-e913755b923d")
 	)
 	(junction
 		(at 192.405 31.75)
@@ -1179,6 +1179,16 @@
 			(type default)
 		)
 		(uuid "0fcbb070-10cc-46b9-8c3e-7e032737ef8f")
+	)
+	(wire
+		(pts
+			(xy 67.31 109.22) (xy 67.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e31c44-06e7-45e2-8f6c-3ad10db4808a")
 	)
 	(wire
 		(pts
@@ -1252,7 +1262,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 102.87) (xy 109.22 102.87)
+			(xy 114.3 95.25) (xy 109.22 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1282,7 +1292,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 99.695) (xy 107.315 99.695)
+			(xy 114.3 92.075) (xy 107.315 92.075)
 		)
 		(stroke
 			(width 0)
@@ -1390,19 +1400,19 @@
 		)
 		(uuid "40e91033-8094-472e-a494-4a314735da46")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 167.005 68.58) (xy 155.575 68.58)
+			(xy 114.3 78.74) (xy 118.745 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "493d9ee1-198c-4ba0-84b9-f62e26863493")
+		(uuid "48b9575a-489f-421a-9d91-a06ef9004de8")
 	)
 	(bus
 		(pts
-			(xy 243.205 114.3) (xy 247.65 114.3)
+			(xy 243.205 126.365) (xy 247.65 126.365)
 		)
 		(stroke
 			(width 0)
@@ -1420,9 +1430,19 @@
 		)
 		(uuid "4fa5b92c-a597-40ac-ab69-b58dd9029382")
 	)
+	(wire
+		(pts
+			(xy 110.49 71.12) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529f39af-626a-4052-a0b0-62709c94d4ec")
+	)
 	(bus
 		(pts
-			(xy 114.3 114.935) (xy 109.22 114.935)
+			(xy 114.3 106.68) (xy 109.22 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1592,7 +1612,7 @@
 	)
 	(bus
 		(pts
-			(xy 104.14 132.08) (xy 112.395 132.08)
+			(xy 104.14 132.08) (xy 143.51 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1602,7 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.185 114.3) (xy 198.12 114.3)
+			(xy 201.93 114.3) (xy 198.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1662,7 +1682,7 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 102.87) (xy 109.22 114.935)
+			(xy 109.22 95.25) (xy 109.22 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +1712,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.185 126.365) (xy 215.265 126.365)
+			(xy 201.93 126.365) (xy 215.265 126.365)
 		)
 		(stroke
 			(width 0)
@@ -1702,7 +1722,7 @@
 	)
 	(bus
 		(pts
-			(xy 112.395 153.67) (xy 150.495 153.67)
+			(xy 143.51 153.67) (xy 150.495 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1782,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.185 126.365) (xy 210.185 114.3)
+			(xy 201.93 126.365) (xy 201.93 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1802,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.315 99.695) (xy 107.315 112.395)
+			(xy 107.315 92.075) (xy 107.315 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1812,13 +1832,33 @@
 	)
 	(bus
 		(pts
-			(xy 247.65 114.3) (xy 247.65 151.765)
+			(xy 155.575 68.58) (xy 158.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60ce71d-662d-4504-8e85-b9aee254e18a")
+	)
+	(bus
+		(pts
+			(xy 247.65 126.365) (xy 247.65 151.765)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b6dc12a3-0877-48d5-88e9-742c48d49897")
+	)
+	(wire
+		(pts
+			(xy 158.75 66.04) (xy 151.765 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f447bd-1e02-4cff-a8f7-abf817429913")
 	)
 	(wire
 		(pts
@@ -1892,7 +1932,7 @@
 	)
 	(bus
 		(pts
-			(xy 112.395 132.08) (xy 112.395 153.67)
+			(xy 143.51 132.08) (xy 143.51 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1962,6 +2002,26 @@
 	)
 	(wire
 		(pts
+			(xy 151.765 66.04) (xy 151.765 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab0c7c3-30b0-436f-8c2d-f66bd55ab66e")
+	)
+	(wire
+		(pts
+			(xy 151.765 119.38) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2a48f7-e139-4006-806e-757d841de879")
+	)
+	(wire
+		(pts
 			(xy 192.405 31.75) (xy 192.405 36.83)
 		)
 		(stroke
@@ -1980,6 +2040,16 @@
 		)
 		(uuid "e3dd1d10-dadb-4b3a-8a55-a617c42b5d9c")
 	)
+	(bus
+		(pts
+			(xy 109.22 106.68) (xy 109.22 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48b7baf-31a7-4cf0-89e1-8d5eb3d93236")
+	)
 	(wire
 		(pts
 			(xy 192.405 27.94) (xy 192.405 31.75)
@@ -1989,6 +2059,16 @@
 			(type default)
 		)
 		(uuid "e499824b-f6cb-4f9d-8b4f-7684bf5692d8")
+	)
+	(wire
+		(pts
+			(xy 114.3 71.12) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6471f39-9b91-43f4-ad89-f9f7123daf21")
 	)
 	(wire
 		(pts
@@ -3288,6 +3368,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 67.31 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96a4e2ca-6864-4101-becc-1dc2c7a189f4")
+		(property "Reference" "#PWR0125"
+			(at 67.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 67.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a91bc36d-7fa5-4305-b48c-9289db9a1765")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SpiritBoi_Library:MountingHole")
 		(at 266.7 45.085 0)
 		(unit 1)
@@ -4578,8 +4724,8 @@
 		)
 	)
 	(sheet
-		(at 215.265 111.125)
-		(size 27.94 27.305)
+		(at 215.265 124.46)
+		(size 27.94 5.715)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4590,7 +4736,7 @@
 		)
 		(uuid "2c066284-8887-41f4-b61e-b40cb8a906fb")
 		(property "Sheetname" "16ValveDriver"
-			(at 215.265 110.4134 0)
+			(at 215.265 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,7 +4745,7 @@
 			)
 		)
 		(property "Sheetfile" "16ValveDriver.kicad_sch"
-			(at 215.265 139.0146 0)
+			(at 215.265 130.7596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4754,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 215.265 111.125 0)
+			(at 215.265 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4783,7 @@
 			(uuid "d4a419db-ac5f-46b5-aa64-1dac21730da5")
 		)
 		(pin "OpAmpOutput[1..16]" output
-			(at 243.205 114.3 0)
+			(at 243.205 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4894,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 97.155)
+		(at 114.3 89.535)
 		(size 12.7 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -4761,7 +4907,7 @@
 		)
 		(uuid "4db09d46-189e-4d6b-adc1-7214f7292c64")
 		(property "Sheetname" "PCF8563"
-			(at 114.3 96.4434 0)
+			(at 114.3 88.8234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4916,7 @@
 			)
 		)
 		(property "Sheetfile" "RTC.kicad_sch"
-			(at 114.3 105.3596 0)
+			(at 114.3 97.7396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +4925,7 @@
 			)
 		)
 		(pin "CLKOUT" output
-			(at 114.3 99.695 180)
+			(at 114.3 92.075 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,7 +4936,7 @@
 			(uuid "862749ce-6057-4955-b232-9c9d324fa482")
 		)
 		(pin "i2c{I2C}" input
-			(at 114.3 102.87 180)
+			(at 114.3 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,8 +5425,8 @@
 		)
 	)
 	(sheet
-		(at 118.745 78.74)
-		(size 19.05 13.335)
+		(at 118.745 76.835)
+		(size 19.05 3.81)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5291,7 +5437,7 @@
 		)
 		(uuid "cc670c6f-3f82-4b76-93c6-3351815d472d")
 		(property "Sheetname" "ConverterVoltTo4_20mA"
-			(at 118.745 78.0284 0)
+			(at 118.745 76.1234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,13 +5446,23 @@
 			)
 		)
 		(property "Sheetfile" "4-20mAConverter.kicad_sch"
-			(at 118.745 92.6596 0)
+			(at 118.745 81.2296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "DAC_4_20mA" input
+			(at 118.745 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "77f1d542-311b-47e1-b981-efe781498051")
 		)
 		(instances
 			(project "DongTamV2"
@@ -5504,6 +5660,36 @@
 			)
 			(uuid "a17e50ce-5067-4d3d-a027-8130d525dc50")
 		)
+		(pin "4_20mA" input
+			(at 53.34 114.935 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2e503dcd-2f37-4d95-b7ec-037a88fe9de6")
+		)
+		(pin "LoraInterrupt" input
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "32930f48-6329-4011-a0b0-cc82679b1476")
+		)
+		(pin "5V" passive
+			(at 67.31 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2cee782-5c11-4197-9fa6-c3e24eb78be9")
+		)
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7"
@@ -5610,7 +5796,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 110.49)
+		(at 114.3 102.235)
 		(size 12.7 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -5622,7 +5808,7 @@
 		)
 		(uuid "df052856-d82e-4b70-92a5-707a3fcda606")
 		(property "Sheetname" "AMS5915"
-			(at 114.3 109.7784 0)
+			(at 114.3 101.5234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5817,7 @@
 			)
 		)
 		(property "Sheetfile" "PRESSURE_SENSOR.kicad_sch"
-			(at 114.3 118.6946 0)
+			(at 114.3 110.4396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +5826,7 @@
 			)
 		)
 		(pin "i2c{I2C}" input
-			(at 114.3 114.935 180)
+			(at 114.3 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,8 +5844,8 @@
 		)
 	)
 	(sheet
-		(at 167.005 60.96)
-		(size 26.035 15.875)
+		(at 158.75 60.96)
+		(size 34.29 15.875)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5670,7 +5856,7 @@
 		)
 		(uuid "e627ea57-82bd-49c4-8a5f-8d13da26f5fb")
 		(property "Sheetname" "LORA"
-			(at 167.005 60.2484 0)
+			(at 158.75 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +5865,7 @@
 			)
 		)
 		(property "Sheetfile" "LORA.kicad_sch"
-			(at 167.005 77.4196 0)
+			(at 158.75 77.4196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,7 +5894,7 @@
 			(uuid "bf6d7deb-b82b-4192-b5b8-313e13a78b9b")
 		)
 		(pin "RA02{ST_SPI2}" input
-			(at 167.005 68.58 180)
+			(at 158.75 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5904,7 @@
 			(uuid "74dbfe97-054b-462c-9794-f062ff9f8dfc")
 		)
 		(pin "LoRaReset" input
-			(at 167.005 71.12 180)
+			(at 158.75 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,6 +5912,16 @@
 				(justify left)
 			)
 			(uuid "8676799f-d24c-4d61-bf47-1ae691eeb5c7")
+		)
+		(pin "LoRaReceivedInterrupt" output
+			(at 158.75 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ce44605-d137-4171-8dca-863f10338f63")
 		)
 		(instances
 			(project "DongTamV2"

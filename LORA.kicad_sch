@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "4f1237c9-b8e5-4683-8155-d493808ccd3e")
+	(uuid "616d76f7-fe01-4fd7-8cb8-0444af93f78f")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -555,10 +555,6 @@
 		(at 136.525 78.74)
 		(uuid "cf0a6230-7167-409b-8e6d-c2722e086182")
 	)
-	(no_connect
-		(at 136.525 73.66)
-		(uuid "e519d24c-1ae7-47c0-9eab-4c267606887e")
-	)
 	(bus_entry
 		(at 100.33 76.2)
 		(size -2.54 2.54)
@@ -737,6 +733,16 @@
 	)
 	(wire
 		(pts
+			(xy 141.605 73.66) (xy 136.525 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5af6e8-8ccd-4154-8d3b-49c114744b33")
+	)
+	(wire
+		(pts
 			(xy 112.395 86.36) (xy 116.205 86.36)
 		)
 		(stroke
@@ -823,6 +829,18 @@
 			(justify left)
 		)
 		(uuid "4b5949f2-9733-406a-a85d-846046e14d8c")
+	)
+	(hierarchical_label "LoRaReceivedInterrupt"
+		(shape output)
+		(at 141.605 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c86a770-a605-43b0-9fde-a60db02ca4f9")
 	)
 	(hierarchical_label "RA02{ST_SPI2}"
 		(shape input)
