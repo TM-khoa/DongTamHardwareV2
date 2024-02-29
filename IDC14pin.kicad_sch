@@ -3123,7 +3123,7 @@
 				)
 			)
 		)
-		(property "Value" "N_Mosfet"
+		(property "Value" "SI2302/BSS138"
 			(at 55.88 121.285 0)
 			(effects
 				(font
@@ -3200,7 +3200,7 @@
 				)
 			)
 		)
-		(property "Value" "N_Mosfet"
+		(property "Value" "SI2302/BSS138"
 			(at 69.85 91.44 0)
 			(effects
 				(font
@@ -3279,7 +3279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "N_Mosfet"
+		(property "Value" "SI2302/BSS138"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -3357,7 +3357,7 @@
 				)
 			)
 		)
-		(property "Value" "N_Mosfet"
+		(property "Value" "SI2302/BSS138"
 			(at 63.5 126.365 0)
 			(effects
 				(font
@@ -4101,7 +4101,7 @@
 				)
 			)
 		)
-		(property "Value" "N_Mosfet"
+		(property "Value" "SI2302/BSS138"
 			(at 71.755 132.715 0)
 			(effects
 				(font

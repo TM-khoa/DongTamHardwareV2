@@ -4543,7 +4543,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x08"
+		(property "Value" "KF-5.08-8-V"
 			(at 187.96 72.39 0)
 			(effects
 				(font

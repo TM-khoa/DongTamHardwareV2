@@ -2982,6 +2982,7 @@
 		(uuid "0bb65111-35a3-4fe4-8ce9-08977194d4e1")
 		(property "Reference" "U8"
 			(at 144.8944 32.385 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,6 +2992,7 @@
 		)
 		(property "Value" "74HC595"
 			(at 144.8944 34.925 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)

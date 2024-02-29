@@ -635,6 +635,12 @@
           "label": "Note",
           "name": "Note",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Buylink",
+          "name": "Buylink",
+          "show": false
         }
       ],
       "filter_string": "",

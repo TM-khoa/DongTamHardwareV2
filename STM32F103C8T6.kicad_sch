@@ -1420,6 +1420,151 @@
 				)
 			)
 		)
+		(symbol "SpiritBoi_Library:Led"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LE"
+				(at 0.508 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Led"
+				(at -0.254 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.762 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.762 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SpiritBoi_Footprint_Library:LED_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Led_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.762) (xy -2.032 -2.286) (xy -1.27 -2.286) (xy -2.032 -2.286) (xy -2.032 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Led_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SpiritBoi_Library:MCU_STM32F103C8Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2395,6 +2540,127 @@
 				)
 			)
 		)
+		(symbol "SpiritBoi_Library:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Thu_vien_kicad:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3066,12 +3332,28 @@
 		(uuid "f1d9bd9a-9db3-4251-bbb3-95f0ac0eb472")
 	)
 	(no_connect
+		(at 156.845 147.32)
+		(uuid "3d13cb73-8b21-4963-afaf-092f640f55c2")
+	)
+	(no_connect
+		(at 169.545 170.18)
+		(uuid "58bce677-5e98-4563-9c3d-584e616186bf")
+	)
+	(no_connect
+		(at 156.845 152.4)
+		(uuid "7f52f283-e58b-459a-9550-91d927da20ca")
+	)
+	(no_connect
 		(at 274.32 182.88)
 		(uuid "8c1e1e67-7f86-4626-886c-96229a35567b")
 	)
 	(no_connect
 		(at 281.94 157.48)
 		(uuid "a6d7acd5-4c5c-41f0-88f0-54ee5208652f")
+	)
+	(no_connect
+		(at 156.845 149.86)
+		(uuid "b99c6e30-4e79-41fe-a920-667067e37757")
 	)
 	(no_connect
 		(at 274.32 170.18)
@@ -4613,6 +4895,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 121.92) (xy 219.71 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40e80f9-f17e-401a-84bb-e267a4ebdb1b")
+	)
+	(wire
+		(pts
 			(xy 111.76 52.705) (xy 111.76 60.96)
 		)
 		(stroke
@@ -6037,7 +6329,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0f47c431-22ac-4e45-ab4a-720d4b73342a")
@@ -6170,6 +6462,76 @@
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/de1d919d-cc07-489f-afed-971dd930ed54"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SpiritBoi_Library:Led")
+		(at 302.26 147.955 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14a762e6-35d3-4f97-93e7-6d01e36be93a")
+		(property "Reference" "LE18"
+			(at 306.07 147.0024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Led"
+			(at 306.07 149.5424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SpiritBoi_Footprint_Library:LED_0603"
+			(at 302.514 147.193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.514 147.193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 302.26 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d70d098-af49-47f5-b9ab-4e65abc07414")
+		)
+		(pin "1"
+			(uuid "202349ad-6026-4080-8c83-d116db83eb69")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/de1d919d-cc07-489f-afed-971dd930ed54"
+					(reference "LE18")
 					(unit 1)
 				)
 			)
@@ -6685,7 +7047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 106.68 170.18 0)
 			(effects
 				(font
@@ -7697,7 +8059,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Thu_vien_kicad:R")
+		(lib_id "SpiritBoi_Library:R")
 		(at 146.05 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7741,7 +8103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 146.05 162.56 0)
 			(effects
 				(font
@@ -7839,76 +8201,6 @@
 			(project "dongtam"
 				(path "/6833aec4-3d1d-4261-9b3e-f0452b565dd3/dd5cb153-c90e-4ac8-8afa-001258760033"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IVS_SYMBOLS:Led")
-		(at 302.26 147.955 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4e234ca-8a8e-47e1-9eaf-6dd865f936de")
-		(property "Reference" "LE18"
-			(at 305.435 147.6375 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Led"
-			(at 305.435 150.1775 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SpiritBoi_Footprint_Library:LED_0603"
-			(at 302.514 147.193 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 302.514 147.193 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 302.26 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76c20d45-71ca-4453-8ac0-97521e3d4ea2")
-		)
-		(pin "2"
-			(uuid "2b1578ed-ada8-45dc-a72b-d7f6b5bcc45e")
-		)
-		(instances
-			(project "DongTamV2"
-				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/de1d919d-cc07-489f-afed-971dd930ed54"
-					(reference "LE18")
 					(unit 1)
 				)
 			)

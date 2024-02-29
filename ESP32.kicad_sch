@@ -2675,7 +2675,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.445 121.285) (xy 149.86 121.285)
+			(xy 139.7 121.285) (xy 149.86 121.285)
 		)
 		(stroke
 			(width 0)
@@ -3085,7 +3085,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.445 123.825) (xy 149.86 123.825)
+			(xy 139.7 123.825) (xy 149.86 123.825)
 		)
 		(stroke
 			(width 0)
@@ -3444,17 +3444,6 @@
 		)
 		(uuid "23eb6e52-d674-4184-9708-4b42402dda3b")
 	)
-	(label "BT.s4"
-		(at 20.32 93.345 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2800e0bb-0185-4767-ab88-7ea1c27a31bc")
-	)
 	(label "VSPI.MOSI"
 		(at 128.27 100.965 0)
 		(fields_autoplaced yes)
@@ -3543,6 +3532,17 @@
 		)
 		(uuid "5c9e8ce5-504a-4ebc-a827-c0b992d933da")
 	)
+	(label "GUI_Button.s3"
+		(at 20.32 93.345 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5db22d62-3bda-4b75-99be-d2d105391468")
+	)
 	(label "VDD_ESP32"
 		(at 79.3496 38.1 180)
 		(fields_autoplaced yes)
@@ -3587,8 +3587,8 @@
 		)
 		(uuid "6fbc9f7b-e0e4-48e1-83f3-8156dc67b1d3")
 	)
-	(label "BT.s2"
-		(at 131.445 116.205 180)
+	(label "GUI_Button.s1"
+		(at 139.7 116.205 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3608,6 +3608,17 @@
 			(justify right bottom)
 		)
 		(uuid "78e6c527-c40f-4c41-b95c-6a059d396dc6")
+	)
+	(label "GUI_Button.s4"
+		(at 20.32 95.885 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a554f0f-591c-415e-a6f0-a6b3a231c11f")
 	)
 	(label "ESP32_I2C.SDA"
 		(at 127.635 95.885 0)
@@ -3730,8 +3741,8 @@
 		)
 		(uuid "df5571d3-a08a-433c-9b89-c6a976e9815d")
 	)
-	(label "BT.s1"
-		(at 131.445 118.745 180)
+	(label "GUI_Button.s2"
+		(at 139.7 118.745 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3752,19 +3763,8 @@
 		)
 		(uuid "eb2a634e-70d3-435b-89bc-f812afd62ff7")
 	)
-	(label "BT.s3"
-		(at 20.32 95.885 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed34c147-405c-4493-a4c7-eb8841cd37e4")
-	)
-	(label "BT.s4"
-		(at 131.445 123.825 180)
+	(label "GUI_Button.s4"
+		(at 139.7 123.825 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3785,8 +3785,8 @@
 		)
 		(uuid "f1ee61bf-94f7-420b-af0c-b209ae3a0e01")
 	)
-	(label "BT.s3"
-		(at 131.445 121.285 180)
+	(label "GUI_Button.s3"
+		(at 139.7 121.285 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

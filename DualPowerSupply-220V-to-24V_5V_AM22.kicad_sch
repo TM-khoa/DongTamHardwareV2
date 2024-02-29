@@ -1681,7 +1681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "5x20mm 2A"
 			(at 96.52 99.06 0)
 			(effects
 				(font
@@ -1831,7 +1831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Filter_EMI_LL"
+		(property "Value" "UU9.8-153 15mH"
 			(at 121.92 103.505 0)
 			(effects
 				(font
@@ -1906,7 +1906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Varistor"
+		(property "Value" "14D471K"
 			(at 101.6 106.045 0)
 			(effects
 				(font

@@ -738,7 +738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IVS_FOOTPRINTS:Potentiometer_Bourns_TC33X_Vertical"
+		(property "Footprint" "SpiritBoi_Footprint_Library:Potentiometer-Vert-SMD-3P-Bourns_TC33X"
 			(at 81.915 95.25 0)
 			(effects
 				(font
