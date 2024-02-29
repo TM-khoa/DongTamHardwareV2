@@ -451,13 +451,13 @@
 	)
 	(bus
 		(pts
-			(xy 66.04 58.42) (xy 69.85 58.42)
+			(xy 47.625 58.42) (xy 64.135 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1ec163b-26ba-4bcb-827b-01be42afad51")
+		(uuid "85f42222-1ac0-453e-8367-812db4e9eb8d")
 	)
 	(wire
 		(pts
@@ -489,9 +489,9 @@
 		)
 		(uuid "c4652c4f-4bef-4973-b615-f69bf207dafe")
 	)
-	(hierarchical_label "MCP41010{SPI}"
+	(hierarchical_label "MCP41010{ST_SPI2}"
 		(shape input)
-		(at 66.04 58.42 180)
+		(at 47.625 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -523,7 +523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26602227-4e5f-4430-ba4f-b4afb7849c9b")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0112"
 			(at 81.915 108.585 0)
 			(effects
 				(font
@@ -573,7 +573,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/c44414d4-f62b-4b90-ad16-4c8725291991"
-					(reference "#PWR0141")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -590,7 +590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8733d094-58cf-4827-b567-19b064739a21")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0111"
 			(at 81.915 92.71 0)
 			(effects
 				(font
@@ -640,7 +640,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/c44414d4-f62b-4b90-ad16-4c8725291991"
-					(reference "#PWR0140")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -656,7 +656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98e16980-eb75-4b23-935c-db9aa6db4d56")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0110"
 			(at 81.915 82.55 0)
 			(effects
 				(font
@@ -706,7 +706,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/c44414d4-f62b-4b90-ad16-4c8725291991"
-					(reference "#PWR0121")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -794,7 +794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb118faf-27b0-440d-aee5-7bd5db7d541a")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0109"
 			(at 81.915 45.72 0)
 			(effects
 				(font
@@ -844,15 +844,15 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/c44414d4-f62b-4b90-ad16-4c8725291991"
-					(reference "#PWR0122")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 69.85 47.625)
-		(size 25.4 22.86)
+		(at 64.135 47.625)
+		(size 35.56 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -863,7 +863,7 @@
 		)
 		(uuid "c600683c-bdbc-4b87-a874-b1d5badfcacc")
 		(property "Sheetname" "MCP41010"
-			(at 69.85 46.9134 0)
+			(at 64.135 46.9134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +872,7 @@
 			)
 		)
 		(property "Sheetfile" "MCP41010.kicad_sch"
-			(at 69.85 71.0696 0)
+			(at 64.135 71.0696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,7 +881,7 @@
 			)
 		)
 		(pin "Output" output
-			(at 95.25 58.42 0)
+			(at 99.695 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -910,15 +910,15 @@
 			)
 			(uuid "f9d29ab3-ddcd-4032-8155-bfff41cb43c3")
 		)
-		(pin "MCP41010{SPI}" input
-			(at 69.85 58.42 180)
+		(pin "MCP41010{ST_SPI2}" input
+			(at 64.135 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "250c1a2b-5dc8-4fa4-8bd6-1c23461416ef")
+			(uuid "4401e46e-8c34-41e9-b03c-7366922c2303")
 		)
 		(instances
 			(project "DongTamV2"

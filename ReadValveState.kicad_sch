@@ -1774,7 +1774,7 @@
 		)
 		(uuid "2b1c0df6-b769-403d-beb0-bb1c8a1d69b9")
 	)
-	(hierarchical_label "VCC"
+	(hierarchical_label "5V"
 		(shape passive)
 		(at 135.255 36.83 90)
 		(fields_autoplaced yes)
@@ -1834,7 +1834,7 @@
 		)
 		(uuid "c2300c36-09c4-46fd-a277-f92dd1e00557")
 	)
-	(hierarchical_label "VCC"
+	(hierarchical_label "5V"
 		(shape passive)
 		(at 197.485 36.83 90)
 		(fields_autoplaced yes)
@@ -1970,7 +1970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57ab249f-9c6c-4dde-af7a-c2ca1b757110")
-		(property "Reference" "U17"
+		(property "Reference" "U15"
 			(at 133.2356 41.275 0)
 			(effects
 				(font
@@ -2066,7 +2066,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/b95e5759-15dd-414c-a82d-930819dc6d8f"
-					(reference "U17")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -2152,7 +2152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ea57e36-2d5a-482b-b99b-bd1942b7bf17")
-		(property "Reference" "C38"
+		(property "Reference" "C36"
 			(at 141.605 32.385 90)
 			(effects
 				(font
@@ -2204,7 +2204,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/b95e5759-15dd-414c-a82d-930819dc6d8f"
-					(reference "C38")
+					(reference "C36")
 					(unit 1)
 				)
 			)

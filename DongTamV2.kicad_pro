@@ -641,6 +641,12 @@
           "label": "Buylink",
           "name": "Buylink",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier and ref",
+          "name": "Supplier and ref",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -760,6 +766,18 @@
     [
       "b95e5759-15dd-414c-a82d-930819dc6d8f",
       "ReadValveState"
+    ],
+    [
+      "e627ea57-82bd-49c4-8a5f-8d13da26f5fb",
+      "LORA"
+    ],
+    [
+      "218b25a1-6a69-47bf-952c-fb18e130a5ac",
+      "SDcard"
+    ],
+    [
+      "cc670c6f-3f82-4b76-93c6-3351815d472d",
+      "ConverterVoltTo4_20mA"
     ],
     [
       "c600683c-bdbc-4b87-a874-b1d5badfcacc",

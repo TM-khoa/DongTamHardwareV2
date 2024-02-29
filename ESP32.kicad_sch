@@ -3889,7 +3889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0817f277-7e01-4f49-b3f1-a3fb0b311309")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 130.81 83.82 90)
 			(effects
 				(font
@@ -3941,7 +3941,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3962,7 +3962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cb6fcd5-7d23-4b65-ab7e-bad3ee3fc1e1")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR029"
 			(at 234.315 43.815 0)
 			(effects
 				(font
@@ -4012,7 +4012,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR017")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4109,7 +4109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b88ea5d-49cd-4945-92f3-f51739590f88")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR028"
 			(at 217.17 137.16 0)
 			(effects
 				(font
@@ -4159,7 +4159,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR016")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4182,7 +4182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "225f5bf9-f0e0-434d-a99c-a56f9e349703")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR024"
 			(at 107.2896 39.37 0)
 			(effects
 				(font
@@ -4232,7 +4232,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR012")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4254,7 +4254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "227156e2-4329-4005-b56f-2c647e5a8c45")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR027"
 			(at 217.17 91.44 0)
 			(effects
 				(font
@@ -4304,7 +4304,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR015")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4401,7 +4401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a680256-2965-45b8-9b68-e43686181a97")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR025"
 			(at 189.865 51.435 0)
 			(effects
 				(font
@@ -4451,7 +4451,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR013")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4548,7 +4548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b7e30b9-2b0b-4b06-b17b-7861295d3975")
-		(property "Reference" "R18"
+		(property "Reference" "R21"
 			(at 228.6 97.79 90)
 			(effects
 				(font
@@ -4602,7 +4602,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "R18")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5110,7 +5110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59262e41-7744-40a7-ae4a-995abb802c8d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR023"
 			(at 79.3496 54.61 0)
 			(effects
 				(font
@@ -5160,7 +5160,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR011")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5183,7 +5183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64a4bd44-b4dd-4e3a-a574-346fcad2a90d")
-		(property "Reference" "JP7"
+		(property "Reference" "JP1"
 			(at 101.5746 34.29 0)
 			(effects
 				(font
@@ -5236,7 +5236,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "JP7")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -5258,7 +5258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65bc37b2-346e-4a5b-9438-8ff7bbd40b9a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR030"
 			(at 234.315 64.135 0)
 			(effects
 				(font
@@ -5308,7 +5308,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR018")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5329,7 +5329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c5c6769-dfb4-474f-b948-885680c795f1")
-		(property "Reference" "R17"
+		(property "Reference" "R20"
 			(at 212.09 97.79 90)
 			(effects
 				(font
@@ -5383,7 +5383,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "R17")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -5405,7 +5405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89da15c2-0710-4fbf-bb87-4f029d30a295")
-		(property "Reference" "J7"
+		(property "Reference" "J9"
 			(at 205.105 42.545 90)
 			(effects
 				(font
@@ -5470,7 +5470,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "J7")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5492,7 +5492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b00c65a-261b-41fc-a0da-f2d169bf5642")
-		(property "Reference" "J8"
+		(property "Reference" "J10"
 			(at 246.38 48.895 90)
 			(effects
 				(font
@@ -5557,7 +5557,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "J8")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -5655,7 +5655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c648067a-8f3d-4784-8f51-f09e91e5cd75")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR026"
 			(at 211.455 62.865 0)
 			(effects
 				(font
@@ -5705,7 +5705,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR014")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5879,7 +5879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff49db23-0051-497e-bc44-9ef81966d64e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR022"
 			(at 49.53 135.255 0)
 			(effects
 				(font
@@ -5929,7 +5929,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR010")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

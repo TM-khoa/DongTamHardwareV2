@@ -1879,7 +1879,7 @@
 		)
 		(uuid "fdf4de24-905f-49ec-b359-9b43faeeb88c")
 	)
-	(hierarchical_label "Digital_GND"
+	(hierarchical_label "GND"
 		(shape passive)
 		(at 95.25 63.5 180)
 		(fields_autoplaced yes)
@@ -1903,7 +1903,7 @@
 		)
 		(uuid "16ec32c1-839a-4bcb-830b-d301ca2372e6")
 	)
-	(hierarchical_label "3.3V_Supply"
+	(hierarchical_label "3V3"
 		(shape passive)
 		(at 130.81 57.15 90)
 		(fields_autoplaced yes)
@@ -1927,7 +1927,7 @@
 		)
 		(uuid "26a0cc98-c3c2-4335-9804-4e0819e7ec93")
 	)
-	(hierarchical_label "3.3V_Supply"
+	(hierarchical_label "3V3"
 		(shape passive)
 		(at 109.22 60.96 90)
 		(fields_autoplaced yes)
@@ -1963,7 +1963,7 @@
 		)
 		(uuid "b06362e1-1ef0-46ef-b158-3366183a58c1")
 	)
-	(hierarchical_label "Digital_GND"
+	(hierarchical_label "GND"
 		(shape passive)
 		(at 109.22 104.14 270)
 		(fields_autoplaced yes)
@@ -2233,7 +2233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "229a88d9-bad8-407f-a4bf-1a91a477ff88")
-		(property "Reference" "D3"
+		(property "Reference" "D7"
 			(at 170.18 90.1699 90)
 			(effects
 				(font
@@ -2287,7 +2287,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/8af8cae9-6834-4c4e-95b1-3f358a1db5d8"
-					(reference "D3")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2384,7 +2384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d5ab919-0e85-4ca1-9228-fd592f1074f7")
-		(property "Reference" "D2"
+		(property "Reference" "D6"
 			(at 170.18 78.7399 90)
 			(effects
 				(font
@@ -2438,7 +2438,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/8af8cae9-6834-4c4e-95b1-3f358a1db5d8"
-					(reference "D2")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2610,7 +2610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64efe5f0-50a5-44af-af46-43914363950c")
-		(property "Reference" "J3"
+		(property "Reference" "J6"
 			(at 156.21 56.5149 90)
 			(effects
 				(font
@@ -2665,7 +2665,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/8af8cae9-6834-4c4e-95b1-3f358a1db5d8"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2985,7 +2985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd1a0ca8-0e6c-484c-98b4-3ed6cd415942")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 150.495 90.805 90)
 			(effects
 				(font
@@ -3039,7 +3039,7 @@
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/8af8cae9-6834-4c4e-95b1-3f358a1db5d8"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
