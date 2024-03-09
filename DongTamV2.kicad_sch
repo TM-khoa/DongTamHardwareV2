@@ -1202,6 +1202,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.095 169.545) (xy 126.365 169.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d457d6-da74-47f9-aa6b-55f1ddb7fc48")
+	)
+	(wire
+		(pts
 			(xy 104.14 129.54) (xy 146.05 129.54)
 		)
 		(stroke
@@ -1229,6 +1239,16 @@
 			(type default)
 		)
 		(uuid "18e840dd-7552-4c85-899d-bec3dbabf7a7")
+	)
+	(wire
+		(pts
+			(xy 20.955 30.48) (xy 22.86 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19021f2c-fa3e-455b-9f91-8808ead129e0")
 	)
 	(wire
 		(pts
@@ -1289,6 +1309,16 @@
 			(type default)
 		)
 		(uuid "25f4a857-d0ff-43b6-a0f7-e0953e3d619d")
+	)
+	(wire
+		(pts
+			(xy 125.095 174.625) (xy 126.365 174.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fe410f-db7f-4066-85ac-6aed42e2611f")
 	)
 	(wire
 		(pts
@@ -1549,16 +1579,6 @@
 			(type default)
 		)
 		(uuid "64b8e9ec-40ee-4d68-a990-3118334684b2")
-	)
-	(wire
-		(pts
-			(xy 125.095 174.625) (xy 126.365 174.625)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c41b4d-638f-4930-9b2f-3a8c8cd5554f")
 	)
 	(wire
 		(pts
@@ -1888,17 +1908,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c3d64c93-1cc6-432c-a2c8-1ce2ace779aa")
-	)
-	(wire
-		(pts
-			(xy 20.955 30.48) (xy 22.86 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c68d1a7b-c776-475d-950f-8672fdeaa53f")
+		(uuid "bebe3ca5-01db-4873-bee1-f9c38f948f2a")
 	)
 	(bus
 		(pts
@@ -1919,6 +1929,16 @@
 			(type default)
 		)
 		(uuid "c7aa2fe0-f456-432f-9dd6-0f5e7ae72e8a")
+	)
+	(wire
+		(pts
+			(xy 125.095 172.085) (xy 126.365 172.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c891058c-04e5-451d-bc38-b81299088141")
 	)
 	(wire
 		(pts
@@ -1959,16 +1979,6 @@
 			(type default)
 		)
 		(uuid "d7821d84-4c6f-4ab4-a625-61ac28a9c5ff")
-	)
-	(wire
-		(pts
-			(xy 125.095 172.085) (xy 126.365 172.085)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d80d14e9-d409-414a-8140-f6e9dcb5b189")
 	)
 	(wire
 		(pts
@@ -2099,16 +2109,6 @@
 			(type default)
 		)
 		(uuid "ea305b80-f498-4ac3-a1b7-400958dfb078")
-	)
-	(wire
-		(pts
-			(xy 125.095 177.165) (xy 126.365 177.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed6fecd4-5fb6-469e-b3b0-cda425f061ff")
 	)
 	(wire
 		(pts
@@ -3959,7 +3959,7 @@
 	)
 	(symbol
 		(lib_id "SpiritBoi_Library:Screw_Terminal_01x03")
-		(at 131.445 174.625 0)
+		(at 131.445 172.085 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3968,7 +3968,7 @@
 		(fields_autoplaced yes)
 		(uuid "c66a4ada-4da3-4e81-9a06-05d9764f8c81")
 		(property "Reference" "J5"
-			(at 133.985 173.3549 0)
+			(at 133.985 170.8149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3977,7 @@
 			)
 		)
 		(property "Value" "KF128"
-			(at 133.985 175.8949 0)
+			(at 133.985 173.3549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +3986,7 @@
 			)
 		)
 		(property "Footprint" "SpiritBoi_Footprint_Library:TerminalBlock_bornier-3_P5.08mm"
-			(at 131.445 174.625 0)
+			(at 131.445 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +3995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 131.445 174.625 0)
+			(at 131.445 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +4004,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 131.445 174.625 0)
+			(at 131.445 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +4831,7 @@
 			)
 		)
 		(pin "220V_L" input
-			(at 22.86 27.94 180)
+			(at 22.86 30.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +4842,7 @@
 			(uuid "20412eef-3c59-4aec-82c0-4f8f05a58c87")
 		)
 		(pin "220V_N" input
-			(at 22.86 30.48 180)
+			(at 22.86 27.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5026,7 @@
 			(uuid "76c17b60-d1bd-4c79-9028-541bbd253eef")
 		)
 		(pin "Earth" passive
-			(at 125.095 177.165 0)
+			(at 125.095 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
