@@ -1672,7 +1672,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D18"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8653d63c-c684-474a-bb50-662658d30c1c")
@@ -1685,7 +1685,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "4816698e-c77a-46a3-a91a-edf82baa94e1")
 			(effects
@@ -3273,7 +3273,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D16"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7758e214-786d-4966-983e-d777ebc91788")
@@ -3286,7 +3286,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "473585ac-502a-499b-8ef0-b253df9b86bb")
 			(effects
@@ -15163,7 +15163,7 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at -0.29 5.74 360)
+			(at -0.29 5.74 0)
 			(layer "F.Fab")
 			(uuid "dfdf1e6b-5734-4cce-a984-7825b93a191b")
 			(effects
@@ -19538,7 +19538,7 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at -0.29 5.74 360)
+			(at -0.29 5.74 0)
 			(layer "F.Fab")
 			(uuid "de9b9f1e-cb0d-4bd7-93c3-5644e2bedbf8")
 			(effects
@@ -25930,7 +25930,7 @@
 		(uuid "621a14fb-c838-4a92-b237-34e82062aab4")
 		(at 192.115156 137.6925)
 		(property "Reference" "J16"
-			(at 17.78 -5.46 360)
+			(at 17.78 -5.46 0)
 			(layer "F.SilkS")
 			(uuid "cef4021f-cb57-45ca-83a6-b2a4e8a8ebf0")
 			(effects
@@ -25941,7 +25941,7 @@
 			)
 		)
 		(property "Value" "KF-5.08-8-V"
-			(at 17.78 5.11 360)
+			(at 17.78 5.11 0)
 			(layer "F.Fab")
 			(uuid "00c3edae-9599-46e7-b663-5e056893dc21")
 			(effects
@@ -27516,7 +27516,7 @@
 			(uuid "6b617b03-9aed-4e22-8431-1b343880ff6a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 17.78 -5.46 360)
+			(at 17.78 -5.46 0)
 			(layer "F.Fab")
 			(uuid "b4413c27-8753-464e-a19f-079a5af2b125")
 			(effects
@@ -27807,7 +27807,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D22"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b3c6a3e7-06a4-49b6-ba7b-f11024e9a3b9")
@@ -27820,7 +27820,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "ddfc31d7-7135-4781-8ce6-b364b495530c")
 			(effects
@@ -31182,7 +31182,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D11"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8927ee40-44d9-4a7a-806a-03c879d9058d")
@@ -31195,7 +31195,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "c9de4750-d34b-446d-bc87-4e61165752f0")
 			(effects
@@ -32275,7 +32275,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D15"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b0bdc580-07c6-4c6e-a992-775078476c94")
@@ -32288,7 +32288,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "101b38d5-0112-4516-807f-af7978de3170")
 			(effects
@@ -33468,7 +33468,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D9"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bb06faed-32b0-4e42-b41b-2c75259ab75a")
@@ -33481,7 +33481,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "79f44a2b-c2a1-495d-9f5d-382068b2b0ad")
 			(effects
@@ -36247,7 +36247,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D24"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b7723a4a-4574-4f1b-9c41-22a6cbe9b63b")
@@ -36260,7 +36260,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "1abf80e5-a168-4a5e-8fa3-e06f710e1eb8")
 			(effects
@@ -36493,7 +36493,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D21"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1dcabed5-cfa4-4566-918a-ee0813d7a509")
@@ -36506,7 +36506,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "7d1242a9-c1f3-4f59-8f38-42448434dff6")
 			(effects
@@ -36739,7 +36739,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D10"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f653cbd0-1886-4a6d-a21e-e1feb09c6e9a")
@@ -36752,7 +36752,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "aa8af03d-a6a3-4940-b5ed-265add55efcb")
 			(effects
@@ -43655,7 +43655,7 @@
 		(uuid "9e56254a-8ee5-4535-aa85-332e36966b81")
 		(at 67.075156 137.6925)
 		(property "Reference" "J13"
-			(at 17.78 -5.46 360)
+			(at 17.78 -5.46 0)
 			(layer "F.SilkS")
 			(uuid "456d7d16-3057-44bc-b939-3ce57aad141c")
 			(effects
@@ -43666,7 +43666,7 @@
 			)
 		)
 		(property "Value" "KF-5.08-8-V"
-			(at 17.78 5.11 360)
+			(at 17.78 5.11 0)
 			(layer "F.Fab")
 			(uuid "40ca356b-427f-425e-a6fb-c0c86ced9e23")
 			(effects
@@ -45241,7 +45241,7 @@
 			(uuid "30d7a7de-5586-4830-a2f3-0f570c2fafbf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 17.78 -5.46 360)
+			(at 17.78 -5.46 0)
 			(layer "F.Fab")
 			(uuid "83808a0a-2845-4140-8594-e8ff6c4c655e")
 			(effects
@@ -46705,7 +46705,7 @@
 		(uuid "a3012cc0-ae3b-4aa5-ac3d-bcb9999db49b")
 		(at 108.755156 137.6925)
 		(property "Reference" "J14"
-			(at 17.78 -5.46 360)
+			(at 17.78 -5.46 0)
 			(layer "F.SilkS")
 			(uuid "86ad93fd-b128-46aa-9f37-88b4ff1bc802")
 			(effects
@@ -46716,7 +46716,7 @@
 			)
 		)
 		(property "Value" "KF-5.08-8-V"
-			(at 17.78 5.11 360)
+			(at 17.78 5.11 0)
 			(layer "F.Fab")
 			(uuid "5f584cf7-43fe-4920-b844-88e985c54c7c")
 			(effects
@@ -48291,7 +48291,7 @@
 			(uuid "0f95153f-2216-49bd-84a1-16e35bb63644")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 17.78 -5.46 360)
+			(at 17.78 -5.46 0)
 			(layer "F.Fab")
 			(uuid "aa814796-364b-40b8-b107-6a96c25c8db5")
 			(effects
@@ -49102,7 +49102,7 @@
 		(uuid "a882d51b-7bc0-4321-95e6-5d7cc6aad2c9")
 		(at 150.435156 137.6925)
 		(property "Reference" "J15"
-			(at 17.78 -5.46 360)
+			(at 17.78 -5.46 0)
 			(layer "F.SilkS")
 			(uuid "98b36c4d-288b-49c0-a948-84387922a1c7")
 			(effects
@@ -49113,7 +49113,7 @@
 			)
 		)
 		(property "Value" "KF-5.08-8-V"
-			(at 17.78 5.11 360)
+			(at 17.78 5.11 0)
 			(layer "F.Fab")
 			(uuid "98e258b4-74fb-45ef-9d74-721ab6b53f6b")
 			(effects
@@ -50688,7 +50688,7 @@
 			(uuid "69f53498-ccd4-4426-bfeb-703f58d51187")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 17.78 -5.46 360)
+			(at 17.78 -5.46 0)
 			(layer "F.Fab")
 			(uuid "37d3b9eb-e9f7-4e24-8296-d7539cfaa98f")
 			(effects
@@ -52833,7 +52833,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D13"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "73fc7ef1-c278-4c82-b0be-ea6fd2a7b092")
@@ -52846,7 +52846,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "fc670ad6-c57e-4038-a899-7402ca23709d")
 			(effects
@@ -58679,7 +58679,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D19"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c35a0e6f-1f7b-4182-b33a-3a117c491807")
@@ -58692,7 +58692,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "7df23369-498f-4dd8-92a2-5cb010cedf72")
 			(effects
@@ -59712,7 +59712,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a31a83c4-c823-4f13-8191-f44309355f00")
@@ -62667,7 +62667,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D12"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "11b5743d-0740-4d33-959f-f9fbbc11eac8")
@@ -62680,7 +62680,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "019b75cd-eaa0-4ae9-88c1-af59a32350f2")
 			(effects
@@ -64439,7 +64439,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D14"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "dafac43f-3b59-44b7-941c-c5f7d19e5f5d")
@@ -64452,7 +64452,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "a9c30b90-7d37-48d0-857d-c493c191dddb")
 			(effects
@@ -66701,7 +66701,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D20"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "29e78f98-8abb-46ce-85e6-e07204b8fa3d")
@@ -66714,7 +66714,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "2ffe767a-ab97-4a8c-b7e2-dcc366a4fea8")
 			(effects
@@ -66947,7 +66947,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D17"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "69d61337-d0c7-47d8-9b59-5a1fbecc0233")
@@ -66960,7 +66960,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "13fb1cc5-18cb-47de-b88a-30252a2a5402")
 			(effects
@@ -73309,7 +73309,7 @@
 		(descr "<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>")
 		(tags "Diode")
 		(property "Reference" "D23"
-			(at 2.7 0 360)
+			(at 2.7 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5d16e707-f3f1-4fb5-ab86-2e05bb66beb8")
@@ -73322,7 +73322,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0.1 1.475 360)
+			(at 0.1 1.475 0)
 			(layer "F.Fab")
 			(uuid "a2a82af0-14bd-4191-8c95-8a0390ce26c0")
 			(effects
@@ -74488,44 +74488,28 @@
 		(uuid "f98ba7b8-00c7-4a34-99b4-85222d62bc66")
 	)
 	(segment
-		(start 236.9975 89.8975)
-		(end 247.3 100.2)
-		(width 1)
+		(start 248.000156 97.800156)
+		(end 240.0975 89.8975)
+		(width 1.5)
 		(layer "F.Cu")
 		(net 3)
-		(uuid "0d12508e-b78b-4e29-b606-4d22046f687c")
+		(uuid "66dec659-294d-4627-b161-1c1512421a13")
 	)
 	(segment
-		(start 248.000156 100.900156)
-		(end 248.000156 131.9425)
-		(width 1)
+		(start 248.000156 131.9425)
+		(end 248.000156 97.800156)
+		(width 1.5)
 		(layer "F.Cu")
 		(net 3)
-		(uuid "1cd44e08-1133-4dca-a2bd-7aa7be138300")
+		(uuid "980d63d8-fa09-4371-b1d4-6b2b59a89ad7")
 	)
 	(segment
-		(start 216.243 89.8975)
-		(end 236.9975 89.8975)
-		(width 1)
+		(start 240.0975 89.8975)
+		(end 216.243 89.8975)
+		(width 1.5)
 		(layer "F.Cu")
 		(net 3)
-		(uuid "8d8349d3-be4d-438b-a49b-3b28e3aff2e5")
-	)
-	(segment
-		(start 247.3 100.2)
-		(end 247.605 100.505)
-		(width 1)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "9d41a3a7-b3e2-4719-a0e8-c7099153b719")
-	)
-	(segment
-		(start 247.3 100.2)
-		(end 248.000156 100.900156)
-		(width 1)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "ab18fc18-702f-46fc-b24b-b291da308700")
+		(uuid "eb931cab-0b19-4b9e-93b8-fcc0e98a0e8b")
 	)
 	(segment
 		(start 148.53 111.595)
@@ -81342,6 +81326,38 @@
 		(layer "F.Cu")
 		(net 197)
 		(uuid "e104d63e-71a3-4d1d-8f1f-c4b9b7a99499")
+	)
+	(segment
+		(start 243.935156 131.9575)
+		(end 243.950156 131.9425)
+		(width 1.5)
+		(layer "F.Cu")
+		(net 198)
+		(uuid "0d3d4e81-f49b-40ac-9319-b55fa484fd7a")
+	)
+	(segment
+		(start 243.935156 138.2425)
+		(end 243.935156 131.9575)
+		(width 1.5)
+		(layer "F.Cu")
+		(net 198)
+		(uuid "e65b70eb-743d-402a-b384-3e78b13b3c7a")
+	)
+	(segment
+		(start 233.435156 138.2425)
+		(end 233.435156 132.2175)
+		(width 1.5)
+		(layer "F.Cu")
+		(net 199)
+		(uuid "017fb871-1311-4850-b396-4e2c76c58ac4")
+	)
+	(segment
+		(start 233.435156 132.2175)
+		(end 233.410156 132.1925)
+		(width 1.5)
+		(layer "F.Cu")
+		(net 199)
+		(uuid "f5cbd9ce-237f-4306-a332-b0aad472396c")
 	)
 	(segment
 		(start 126.4625 27.4175)
