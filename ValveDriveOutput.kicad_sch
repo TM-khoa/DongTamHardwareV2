@@ -3156,6 +3156,17 @@
 		(uuid "abfc344b-5e53-4345-83b7-01e245613bfd")
 	)
 	(label "VAN2-"
+		(at 182.88 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "016f9526-be64-4e24-b18e-a74d93c67bbe")
+	)
+	(label "VAN2-"
 		(at 54.61 72.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3243,17 +3254,6 @@
 		)
 		(uuid "3f185fb3-f2a9-48e9-9308-093e494a563e")
 	)
-	(label "VAN2-"
-		(at 182.88 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "57e893cf-61d5-4bd6-94a6-b8f9b78e1cdf")
-	)
 	(label "VAN4+"
 		(at 55.88 158.75 0)
 		(fields_autoplaced yes)
@@ -3320,6 +3320,17 @@
 		)
 		(uuid "946dfab0-8d7e-4403-b365-af52ba376515")
 	)
+	(label "VAN3+"
+		(at 182.88 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aefc48c7-8010-4b47-a38f-6482c3879fa3")
+	)
 	(label "VAN4-"
 		(at 182.88 93.98 180)
 		(fields_autoplaced yes)
@@ -3353,6 +3364,17 @@
 		)
 		(uuid "b52fc6ca-9f8b-4737-ae67-33df0d3547d6")
 	)
+	(label "VAN3-"
+		(at 182.88 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c625d2cd-b32b-4c3e-86e2-84d93e7e1ca9")
+	)
 	(label "VAN2+"
 		(at 182.88 81.28 180)
 		(fields_autoplaced yes)
@@ -3363,17 +3385,6 @@
 			(justify right bottom)
 		)
 		(uuid "c6fc8301-73bb-4144-ac2d-2e49f24a2eed")
-	)
-	(label "VAN3-"
-		(at 182.88 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dcc76046-ac1e-4346-b77f-fef93a33d0f3")
 	)
 	(label "VAN1-"
 		(at 58.42 26.67 0)
@@ -3407,17 +3418,6 @@
 			(justify left bottom)
 		)
 		(uuid "eb0fe7ab-f124-4523-a79b-eecfaf04f064")
-	)
-	(label "VAN3+"
-		(at 182.88 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee578133-8d8f-4e1e-b694-30ff9491a118")
 	)
 	(hierarchical_label "REF"
 		(shape input)

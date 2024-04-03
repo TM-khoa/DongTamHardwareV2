@@ -1824,11 +1824,11 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1841,7 +1841,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1867,7 +1867,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1876,7 +1876,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1885,7 +1885,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1923,11 +1923,11 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2725,6 +2725,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.315 35.56) (xy 107.315 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7690cdf1-10e4-4fb4-98e7-0d162dc4c653")
+	)
+	(wire
+		(pts
 			(xy 234.315 55.245) (xy 234.315 57.785)
 		)
 		(stroke
@@ -2975,6 +2985,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 38.1) (xy 107.315 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed50ffa-3e70-40d5-9d00-de266c0e0133")
+	)
+	(wire
+		(pts
 			(xy 209.55 122.555) (xy 209.55 127)
 		)
 		(stroke
@@ -3145,7 +3165,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.7646 38.1) (xy 94.5896 38.1)
+			(xy 97.79 38.1) (xy 94.5896 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3245,16 +3265,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.2896 38.1) (xy 105.3846 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da1aa37e-afe9-4b29-88a4-2de00aeaabff")
-	)
-	(wire
-		(pts
 			(xy 128.27 85.725) (xy 125.73 85.725)
 		)
 		(stroke
@@ -3282,16 +3292,6 @@
 			(type default)
 		)
 		(uuid "ebb6668b-3710-4461-83a0-e6adf6c083d3")
-	)
-	(wire
-		(pts
-			(xy 107.2896 35.56) (xy 107.2896 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1041dae-e36b-4db0-bf25-faa40129a07e")
 	)
 	(wire
 		(pts
@@ -3881,6 +3881,72 @@
 		(uuid "b8717631-dab0-405a-92e1-b0ba749cf34e")
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 234.315 40.005 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04804de9-69b5-4bba-b4ba-1ca67280b5e5")
+		(property "Reference" "#PWR027"
+			(at 234.315 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 234.315 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.315 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.315 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 234.315 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebc4e71c-b3d2-4c20-a7e7-36e67fec79e9")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 132.08 85.725 90)
 		(unit 1)
@@ -3954,16 +4020,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 234.315 40.005 0)
+		(lib_id "power:+3.3V")
+		(at 189.865 47.625 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0cb6fcd5-7d23-4b65-ab7e-bad3ee3fc1e1")
-		(property "Reference" "#PWR029"
-			(at 234.315 43.815 0)
+		(fields_autoplaced yes)
+		(uuid "0d815959-4a14-4c38-961b-11b6c5b873bd")
+		(property "Reference" "#PWR025"
+			(at 189.865 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,8 +4038,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 233.68 35.56 0)
+		(property "Value" "+3.3V"
+			(at 189.865 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +4047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.315 40.005 0)
+			(at 189.865 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +4056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.315 40.005 0)
+			(at 189.865 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,8 +4064,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 234.315 40.005 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 189.865 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,18 +4074,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef7ab8a2-8e51-4361-b900-620d4a066b26")
+			(uuid "61ef5de2-c263-4806-ab0b-5884b650f2c9")
 		)
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-			(project "dongtam"
-				(path "/6833aec4-3d1d-4261-9b3e-f0452b565dd3/f79579be-e03f-4679-abbf-d954881a6143"
-					(reference "#PWR?")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4172,151 +4233,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 107.2896 35.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "225f5bf9-f0e0-434d-a99c-a56f9e349703")
-		(property "Reference" "#PWR024"
-			(at 107.2896 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 107.2896 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.2896 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.2896 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.2896 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cdfe436-bbb2-4188-9657-1ee12701c3e7")
-		)
-		(instances
-			(project "DongTamV2"
-				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-			(project "dongtam"
-				(path "/6833aec4-3d1d-4261-9b3e-f0452b565dd3/f79579be-e03f-4679-abbf-d954881a6143"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 217.17 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "227156e2-4329-4005-b56f-2c647e5a8c45")
-		(property "Reference" "#PWR027"
-			(at 217.17 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "974d66e0-d6de-4d2d-b555-0097e7e70f66")
-		)
-		(instances
-			(project "DongTamV2"
-				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-			(project "dongtam"
-				(path "/6833aec4-3d1d-4261-9b3e-f0452b565dd3/f79579be-e03f-4679-abbf-d954881a6143"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 236.22 115.57 0)
 		(unit 1)
@@ -4386,78 +4302,6 @@
 			(project "dongtam"
 				(path "/6833aec4-3d1d-4261-9b3e-f0452b565dd3/f79579be-e03f-4679-abbf-d954881a6143"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 189.865 47.625 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a680256-2965-45b8-9b68-e43686181a97")
-		(property "Reference" "#PWR025"
-			(at 189.865 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 189.865 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.865 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.865 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.865 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c830b112-e499-406e-8bb5-de6648274747")
-		)
-		(instances
-			(project "DongTamV2"
-				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-			(project "dongtam"
-				(path "/6833aec4-3d1d-4261-9b3e-f0452b565dd3/f79579be-e03f-4679-abbf-d954881a6143"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -5174,7 +5018,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 101.5746 38.1 0)
+		(at 101.6 38.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5184,7 +5028,7 @@
 		(fields_autoplaced yes)
 		(uuid "64a4bd44-b4dd-4e3a-a574-346fcad2a90d")
 		(property "Reference" "JP1"
-			(at 101.5746 34.29 0)
+			(at 101.6 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +5036,7 @@
 			)
 		)
 		(property "Value" " "
-			(at 101.5746 34.29 0)
+			(at 101.6 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,7 +5045,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 101.5746 38.1 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +5054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.5746 38.1 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +5063,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.5746 38.1 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,6 +5638,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 217.17 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9b329bb-cc02-426c-a5ca-e6bbf48fd9eb")
+		(property "Reference" "#PWR024"
+			(at 217.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 217.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efef5fc2-f85b-45bc-a9cd-89476393b5db")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.2996 41.91 0)
 		(mirror y)
@@ -5864,6 +5774,72 @@
 			(project "dongtam"
 				(path "/6833aec4-3d1d-4261-9b3e-f0452b565dd3/f79579be-e03f-4679-abbf-d954881a6143"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 107.315 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd3d0255-6fb2-49fb-b1bc-044aa369b06b")
+		(property "Reference" "#PWR0126"
+			(at 107.315 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 107.315 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.315 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.315 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 107.315 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "928056ca-e29b-4d5b-8aae-9642a9b43d58")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/abf795b6-a215-4309-99bc-ba882add59d7"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
