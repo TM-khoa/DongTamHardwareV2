@@ -1091,6 +1091,102 @@
 				)
 			)
 		)
+		(symbol "power:GNDA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 155.575 114.3)
@@ -1129,6 +1225,12 @@
 		(uuid "4b9f9efc-89b2-4143-a5b6-8a5853dab1b7")
 	)
 	(junction
+		(at 209.55 131.445)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f42273f-8890-4413-b1fe-c80c3f540002")
+	)
+	(junction
 		(at 58.42 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1152,6 +1254,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 131.445) (xy 209.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039fc65e-6729-41e9-ba84-2a1533837a9e")
+	)
+	(wire
+		(pts
 			(xy 180.975 123.19) (xy 180.975 124.46)
 		)
 		(stroke
@@ -1169,6 +1281,16 @@
 			(type default)
 		)
 		(uuid "0cd82561-6ff9-41d7-8149-e81482d82035")
+	)
+	(polyline
+		(pts
+			(xy 209.55 107.315) (xy 209.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e32ee8b-49b9-412c-8681-b2269d12d14c")
 	)
 	(wire
 		(pts
@@ -1199,6 +1321,16 @@
 			(type default)
 		)
 		(uuid "1235f1e6-e9e8-4f88-b615-f5edfcbdb561")
+	)
+	(polyline
+		(pts
+			(xy 243.84 107.315) (xy 209.55 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1376cc50-5408-4bd8-a0cc-813cc930b822")
 	)
 	(wire
 		(pts
@@ -1259,6 +1391,16 @@
 			(type default)
 		)
 		(uuid "1ac2375a-5240-427e-a501-b145c73db068")
+	)
+	(wire
+		(pts
+			(xy 211.455 109.855) (xy 211.455 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f120875-6266-47fa-ac69-54c85018f4d6")
 	)
 	(wire
 		(pts
@@ -1350,6 +1492,16 @@
 		)
 		(uuid "2f8bac86-e8ee-4f8c-a58f-c25a0471f29e")
 	)
+	(wire
+		(pts
+			(xy 211.455 123.825) (xy 215.265 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3250fe2c-feb0-474f-aead-0146146a39d4")
+	)
 	(bus
 		(pts
 			(xy 74.295 148.59) (xy 74.295 172.085)
@@ -1389,6 +1541,16 @@
 			(type default)
 		)
 		(uuid "36e1c8f2-149a-4460-9a2b-4690aef463cf")
+	)
+	(wire
+		(pts
+			(xy 215.265 131.445) (xy 209.55 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379e92d4-ca01-4d05-ae79-393174f84a4e")
 	)
 	(wire
 		(pts
@@ -1439,6 +1601,16 @@
 			(type default)
 		)
 		(uuid "48b9575a-489f-421a-9d91-a06ef9004de8")
+	)
+	(polyline
+		(pts
+			(xy 209.55 109.22) (xy 210.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c52620b-f21f-4d3c-80b0-9706684d639d")
 	)
 	(bus
 		(pts
@@ -1642,7 +1814,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 114.3) (xy 198.12 114.3)
+			(xy 201.93 112.395) (xy 198.12 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1782,6 +1954,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 114.935) (xy 209.55 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2928012-7817-44f0-a38f-cb8dc1c8e928")
+	)
+	(wire
+		(pts
 			(xy 39.37 43.18) (xy 39.37 45.72)
 		)
 		(stroke
@@ -1822,7 +2004,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 126.365) (xy 201.93 114.3)
+			(xy 201.93 126.365) (xy 201.93 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1892,6 +2074,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 114.935) (xy 209.55 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b98a5d37-c615-4e19-82d5-2fff56631e4d")
+	)
+	(polyline
+		(pts
+			(xy 208.28 107.95) (xy 209.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba514329-9212-4a9a-83b3-696623934415")
+	)
+	(wire
+		(pts
 			(xy 153.67 31.75) (xy 160.655 31.75)
 		)
 		(stroke
@@ -1909,6 +2111,16 @@
 			(type default)
 		)
 		(uuid "bebe3ca5-01db-4873-bee1-f9c38f948f2a")
+	)
+	(wire
+		(pts
+			(xy 198.12 109.855) (xy 211.455 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dd4f27-0687-4571-8462-4b683bb814bb")
 	)
 	(bus
 		(pts
@@ -2203,6 +2415,16 @@
 			)
 		)
 		(uuid "461b3571-322e-4790-92a3-b089c4ac2748")
+	)
+	(text "Chỗ này không cấp nguồn analog VCC"
+		(exclude_from_sim no)
+		(at 224.79 106.045 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8fc98aa-24c1-41ad-bc2f-0b5d09d8ac0f")
 	)
 	(text "For external DC supply if 220V is not used"
 		(exclude_from_sim no)
@@ -3045,7 +3267,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "678fa63a-0afa-43f1-8f19-3b07d243dc9e")
 		(property "Reference" "#PWR020"
 			(at 188.595 109.22 0)
@@ -3057,7 +3278,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 188.595 107.95 0)
+			(at 192.405 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,6 +4655,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 209.55 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f75a6117-1929-4143-841c-de1055eb80c6")
+		(property "Reference" "#PWR050"
+			(at 209.55 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 209.55 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cb12b2c-d122-4118-a4a7-a4c6828ec96c")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 39.37 45.72 0)
 		(unit 1)
@@ -4724,8 +5011,8 @@
 		)
 	)
 	(sheet
-		(at 215.265 124.46)
-		(size 27.94 5.715)
+		(at 215.265 120.015)
+		(size 28.575 15.875)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4736,7 +5023,7 @@
 		)
 		(uuid "2c066284-8887-41f4-b61e-b40cb8a906fb")
 		(property "Sheetname" "16ValveDriver"
-			(at 215.265 123.7484 0)
+			(at 215.265 119.3034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +5032,7 @@
 			)
 		)
 		(property "Sheetfile" "16ValveDriver.kicad_sch"
-			(at 215.265 130.7596 0)
+			(at 215.265 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +5041,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 215.265 124.46 0)
+			(at 215.265 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,7 +5070,7 @@
 			(uuid "d4a419db-ac5f-46b5-aa64-1dac21730da5")
 		)
 		(pin "OpAmpOutput[1..16]" output
-			(at 243.205 126.365 0)
+			(at 243.84 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,6 +5078,26 @@
 				(justify right)
 			)
 			(uuid "ea054c30-4423-4e82-9aeb-c35a14f807ba")
+		)
+		(pin "AnalogGND" passive
+			(at 215.265 131.445 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "50f3f64f-3d3b-449c-9465-c760794a722a")
+		)
+		(pin "AnalogVCC" passive
+			(at 215.265 123.825 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d73825b3-704c-4a2c-828c-05bd203c2129")
 		)
 		(instances
 			(project "DongTamV2"
@@ -5290,8 +5597,8 @@
 		)
 	)
 	(sheet
-		(at 164.465 111.76)
-		(size 33.655 5.08)
+		(at 164.465 107.95)
+		(size 33.655 8.89)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5302,7 +5609,7 @@
 		)
 		(uuid "c44414d4-f62b-4b90-ad16-4c8725291991")
 		(property "Sheetname" "VoltageReference"
-			(at 164.465 111.0484 0)
+			(at 164.465 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5627,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 164.465 111.76 0)
+			(at 164.465 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5636,7 @@
 			)
 		)
 		(pin "RefOutput" output
-			(at 198.12 114.3 0)
+			(at 198.12 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,6 +5654,26 @@
 				(justify left)
 			)
 			(uuid "ad31235c-d16b-443c-9650-11465a42e274")
+		)
+		(pin "AnalogGND" passive
+			(at 198.12 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "89cf1496-cb24-415f-9b82-2e3a08f95e7a")
+		)
+		(pin "AnalogVCC" passive
+			(at 198.12 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2619a45a-cd04-4dbb-aea7-febd8ef0cd2b")
 		)
 		(instances
 			(project "DongTamV2"

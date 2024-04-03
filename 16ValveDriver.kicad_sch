@@ -6,16 +6,16 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
-		(at 86.36 64.135)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b385917-6dfc-40d3-9000-2524ea8fb066")
-	)
-	(junction
 		(at 85.09 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38ca3c38-2528-411f-b3f5-f63470336405")
+	)
+	(junction
+		(at 147.32 50.165)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4425aaa3-d168-42c1-8a17-de278e00e119")
 	)
 	(junction
 		(at 86.36 50.165)
@@ -28,6 +28,42 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ec212b7-ec47-4e80-ba63-1ef5348a251e")
+	)
+	(junction
+		(at 86.36 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e55dd6a-310d-463c-a3a7-9d577b33c1cf")
+	)
+	(junction
+		(at 150.495 60.325)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1e91abc-66f6-48e9-a0a8-a62f13170fdf")
+	)
+	(junction
+		(at 150.495 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa404e35-ad00-49d1-bcc1-0dd9ae857ee5")
+	)
+	(junction
+		(at 147.32 80.645)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0bfc7f9-7767-4535-88bd-e68434aebcbc")
+	)
+	(junction
+		(at 150.495 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfee4869-a8b9-4b93-ae5b-df5fdd500fe6")
+	)
+	(junction
+		(at 147.32 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2010067-af1e-4882-a667-de005e2dc9f2")
 	)
 	(junction
 		(at 85.09 46.99)
@@ -673,7 +709,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 78.74) (xy 86.36 78.74)
+			(xy 106.045 80.645) (xy 86.36 80.645)
 		)
 		(stroke
 			(width 0)
@@ -693,13 +729,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 50.165) (xy 86.36 64.135)
+			(xy 86.36 50.165) (xy 86.36 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "108a80ee-8bb5-4b85-a19b-5248eebb7773")
+	)
+	(wire
+		(pts
+			(xy 147.32 35.56) (xy 144.145 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10935df1-5644-49c7-904b-1be93c0a67d5")
 	)
 	(bus
 		(pts
@@ -730,6 +776,16 @@
 			(type default)
 		)
 		(uuid "1593ecd2-e682-42ab-a08a-aaeafc2d1358")
+	)
+	(wire
+		(pts
+			(xy 151.765 85.09) (xy 147.32 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17fedc84-afc7-4cb9-9fe7-7cbfe0721768")
 	)
 	(bus
 		(pts
@@ -893,23 +949,13 @@
 	)
 	(bus
 		(pts
-			(xy 149.225 67.31) (xy 187.325 67.31)
+			(xy 154.305 67.31) (xy 187.325 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "36ba2f5d-7fcc-42d0-a8bf-1fabaf1dc8ca")
-	)
-	(wire
-		(pts
-			(xy 86.36 64.135) (xy 86.36 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "377ffa86-907c-4d18-9bc2-cdd7a652f124")
 	)
 	(wire
 		(pts
@@ -930,6 +976,16 @@
 			(type default)
 		)
 		(uuid "3b0cfcab-64c0-41f7-8786-3151f691aa29")
+	)
+	(wire
+		(pts
+			(xy 150.495 24.765) (xy 150.495 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b17d145-831f-4c3b-9038-e371406f09cb")
 	)
 	(bus
 		(pts
@@ -991,6 +1047,16 @@
 		)
 		(uuid "50877671-0133-4a01-a3e0-fcb59d587b8b")
 	)
+	(wire
+		(pts
+			(xy 150.495 74.93) (xy 150.495 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5192841e-78c5-413d-850b-f3f19ea0a458")
+	)
 	(bus
 		(pts
 			(xy 208.915 62.23) (xy 208.915 64.77)
@@ -1033,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 64.135) (xy 86.36 64.135)
+			(xy 106.045 66.04) (xy 86.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1060,6 +1126,16 @@
 			(type default)
 		)
 		(uuid "62ada640-3d67-4c3b-9c47-5cb517f8e6ae")
+	)
+	(wire
+		(pts
+			(xy 150.495 44.45) (xy 150.495 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637447a6-fa93-45db-bf51-a35e3501abff")
 	)
 	(wire
 		(pts
@@ -1103,6 +1179,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.145 50.165) (xy 147.32 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695b233d-23f0-464d-a880-5a35580172e2")
+	)
+	(wire
+		(pts
 			(xy 189.865 72.39) (xy 206.375 72.39)
 		)
 		(stroke
@@ -1123,7 +1209,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.345 60.96) (xy 106.045 60.96)
+			(xy 93.345 62.865) (xy 106.045 62.865)
 		)
 		(stroke
 			(width 0)
@@ -1173,7 +1259,7 @@
 	)
 	(bus
 		(pts
-			(xy 146.05 60.96) (xy 144.145 60.96)
+			(xy 154.94 62.865) (xy 144.145 62.865)
 		)
 		(stroke
 			(width 0)
@@ -1213,7 +1299,7 @@
 	)
 	(bus
 		(pts
-			(xy 85.09 75.565) (xy 106.045 75.565)
+			(xy 85.09 77.47) (xy 106.045 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1241,9 +1327,19 @@
 		)
 		(uuid "7ba71ac2-27be-4014-bcc7-8b89b182f2cc")
 	)
+	(wire
+		(pts
+			(xy 147.32 66.04) (xy 147.32 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2f1fd2-bd59-4f1d-b5e7-cd87860a1171")
+	)
 	(bus
 		(pts
-			(xy 149.225 75.565) (xy 144.145 75.565)
+			(xy 154.305 77.47) (xy 144.145 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1260,6 +1356,16 @@
 			(type default)
 		)
 		(uuid "86a15d41-12b5-462a-8ddf-06123a7c231a")
+	)
+	(wire
+		(pts
+			(xy 86.36 66.04) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e87a96-627f-4769-9d96-73fee1092683")
 	)
 	(wire
 		(pts
@@ -1331,6 +1437,16 @@
 		)
 		(uuid "925f1897-a68b-4dcb-a77f-f1cbf708d1d7")
 	)
+	(wire
+		(pts
+			(xy 147.32 50.165) (xy 147.32 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fb7f19-77ef-4392-bb34-48b01ea1a5a5")
+	)
 	(bus
 		(pts
 			(xy 208.915 57.15) (xy 208.915 59.69)
@@ -1340,6 +1456,16 @@
 			(type default)
 		)
 		(uuid "9301f551-fc8e-4b75-b65b-34c4af25a70a")
+	)
+	(wire
+		(pts
+			(xy 153.035 24.765) (xy 150.495 24.765)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d1d8c2-f764-4549-896f-0141326e2ccc")
 	)
 	(wire
 		(pts
@@ -1370,6 +1496,26 @@
 			(type default)
 		)
 		(uuid "9aba6317-502d-4ff3-94d2-08e709a357b1")
+	)
+	(wire
+		(pts
+			(xy 150.495 60.325) (xy 150.495 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ead0fdf-380c-4b20-8731-9ab5b752ffd4")
+	)
+	(wire
+		(pts
+			(xy 147.32 35.56) (xy 147.32 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46f3af4-d2ad-47bb-b065-3c5712b62d88")
 	)
 	(bus
 		(pts
@@ -1483,7 +1629,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.225 67.31) (xy 149.225 75.565)
+			(xy 154.305 67.31) (xy 154.305 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1581,9 +1727,19 @@
 		)
 		(uuid "c43d1c74-3e7d-4d99-8c9c-9cf4edf269ae")
 	)
+	(wire
+		(pts
+			(xy 86.36 80.645) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d1d7ff-fcf9-4304-aea7-944b5717ec0c")
+	)
 	(bus
 		(pts
-			(xy 146.05 57.15) (xy 187.325 57.15)
+			(xy 154.94 57.15) (xy 187.325 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1611,6 +1767,16 @@
 		)
 		(uuid "cda96cfe-96cb-468e-9c75-40e26bd58fd6")
 	)
+	(wire
+		(pts
+			(xy 144.145 74.93) (xy 150.495 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cebf5d9b-8dd3-4ba1-91c5-9da0501c33a1")
+	)
 	(bus
 		(pts
 			(xy 85.09 34.925) (xy 85.09 37.465)
@@ -1620,6 +1786,16 @@
 			(type default)
 		)
 		(uuid "d430c19d-c567-49a0-8c83-6d1216ab1472")
+	)
+	(wire
+		(pts
+			(xy 144.145 44.45) (xy 150.495 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81c8164-10f3-44d2-95f4-4a2b40a55218")
 	)
 	(bus
 		(pts
@@ -1651,6 +1827,16 @@
 		)
 		(uuid "da6c65f4-4f8f-4b0e-aba5-ab5c7b73c154")
 	)
+	(wire
+		(pts
+			(xy 150.495 29.21) (xy 144.145 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb76c80-78db-420f-9d6a-92338d918b8d")
+	)
 	(bus
 		(pts
 			(xy 85.09 46.99) (xy 106.045 46.99)
@@ -1663,6 +1849,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.145 80.645) (xy 147.32 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e840d9-4374-4895-b839-4ef9d466b70f")
+	)
+	(wire
+		(pts
 			(xy 189.865 54.61) (xy 206.375 54.61)
 		)
 		(stroke
@@ -1670,6 +1866,16 @@
 			(type default)
 		)
 		(uuid "e6e83946-29f7-47e7-a9bc-a0d480d7bbed")
+	)
+	(wire
+		(pts
+			(xy 147.32 85.09) (xy 147.32 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea98c2e2-2ce1-49f2-ad29-914fbdc41d30")
 	)
 	(bus
 		(pts
@@ -1713,7 +1919,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.345 58.42) (xy 93.345 60.96)
+			(xy 93.345 58.42) (xy 93.345 62.865)
 		)
 		(stroke
 			(width 0)
@@ -1730,6 +1936,16 @@
 			(type default)
 		)
 		(uuid "f8a1d181-3802-4eeb-8cdb-bbad998f0b84")
+	)
+	(wire
+		(pts
+			(xy 144.145 66.04) (xy 147.32 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9169e01-cd42-48fa-80ae-f0cbbcee1521")
 	)
 	(wire
 		(pts
@@ -1753,7 +1969,7 @@
 	)
 	(bus
 		(pts
-			(xy 146.05 57.15) (xy 146.05 60.96)
+			(xy 154.94 57.15) (xy 154.94 62.865)
 		)
 		(stroke
 			(width 0)
@@ -1773,13 +1989,23 @@
 	)
 	(bus
 		(pts
-			(xy 85.09 73.025) (xy 85.09 75.565)
+			(xy 85.09 73.025) (xy 85.09 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe985c2a-af8a-4acf-808a-358945466cb6")
+	)
+	(wire
+		(pts
+			(xy 144.145 60.325) (xy 150.495 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9d5b29-f4ab-4f32-add2-a625e9e0a64b")
 	)
 	(label "OpAmpOutput3"
 		(at 190.5 44.45 0)
@@ -1903,7 +2129,7 @@
 		(uuid "4390ca3b-e0d6-4aff-aa45-b007169582be")
 	)
 	(label "OpAmpOutput[9..12]"
-		(at 151.13 57.15 0)
+		(at 154.94 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1980,7 +2206,7 @@
 		(uuid "8682fd7f-a9fe-41d8-b1f7-1103457c2c14")
 	)
 	(label "ValveDriver[13..16]"
-		(at 86.995 75.565 0)
+		(at 87.0509 77.4106 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2123,7 +2349,7 @@
 		(uuid "c0d70b42-b38d-42bc-a8d0-1d52defd3b8d")
 	)
 	(label "OpAmpOutput[13..16]"
-		(at 151.13 67.31 0)
+		(at 154.305 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2221,6 +2447,18 @@
 		)
 		(uuid "fb044269-b296-45b6-b13d-8aaaf2be260e")
 	)
+	(hierarchical_label "AnalogVCC"
+		(shape passive)
+		(at 153.035 24.765 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31ba938a-816d-47fe-9ed7-2056d0a2e483")
+	)
 	(hierarchical_label "OpAmpOutput[1..16]"
 		(shape output)
 		(at 224.79 33.655 0)
@@ -2245,6 +2483,18 @@
 		)
 		(uuid "87b74046-b968-4822-b0e1-90eb5df02f1b")
 	)
+	(hierarchical_label "AnalogGND"
+		(shape passive)
+		(at 151.765 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88a1b766-af3a-4dda-8957-e531865dbe4d")
+	)
 	(hierarchical_label "REF"
 		(shape input)
 		(at 59.69 78.74 180)
@@ -2258,8 +2508,8 @@
 		(uuid "cc3b3e8f-85cb-4c82-8ec4-07cdbc45a180")
 	)
 	(sheet
-		(at 106.045 29.845)
-		(size 38.1 7.62)
+		(at 106.045 27.305)
+		(size 38.1 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2270,7 +2520,7 @@
 		)
 		(uuid "0f07157a-883c-4ea4-935e-e968b282f133")
 		(property "Sheetname" "4ValveDriveOutput"
-			(at 106.045 29.1334 0)
+			(at 106.045 26.5934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,6 +2567,26 @@
 			)
 			(uuid "a162b3ed-f305-4595-9108-4f82e193ca7d")
 		)
+		(pin "AnalogGND" passive
+			(at 144.145 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "241b6cdb-0df9-43a7-80f9-2570838d924d")
+		)
+		(pin "AnalogVCC" passive
+			(at 144.145 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0410485-ca5e-41b8-9821-6944be7a8794")
+		)
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/2c066284-8887-41f4-b61e-b40cb8a906fb"
@@ -2326,8 +2596,8 @@
 		)
 	)
 	(sheet
-		(at 106.045 58.42)
-		(size 38.1 7.62)
+		(at 106.045 57.785)
+		(size 38.1 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2338,7 +2608,7 @@
 		)
 		(uuid "2f9aecb0-00e3-4033-a162-064bbf4c14dd")
 		(property "Sheetname" "4ValveDriveOutput2"
-			(at 106.045 57.7084 0)
+			(at 106.045 57.0734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2617,7 @@
 			)
 		)
 		(property "Sheetfile" "ValveDriveOutput.kicad_sch"
-			(at 106.045 66.6246 0)
+			(at 106.045 68.5296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2626,7 @@
 			)
 		)
 		(pin "REF" input
-			(at 106.045 64.135 180)
+			(at 106.045 66.04 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2636,7 @@
 			(uuid "957e9849-a94e-4094-81a4-3b9c3e78cda6")
 		)
 		(pin "ValveInput[1..4]" input
-			(at 106.045 60.96 180)
+			(at 106.045 62.865 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +2646,7 @@
 			(uuid "f823fdc6-c7d1-4429-9b6d-1c4f29ab7489")
 		)
 		(pin "OpAmpOutput[1..4]" output
-			(at 144.145 60.96 0)
+			(at 144.145 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,6 +2654,26 @@
 				(justify right)
 			)
 			(uuid "f088bdb4-6907-4518-aa6b-ca7c51ee6e73")
+		)
+		(pin "AnalogGND" passive
+			(at 144.145 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f40ee7d0-8ab4-485a-9f15-d13b9fde4333")
+		)
+		(pin "AnalogVCC" passive
+			(at 144.145 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c498ae9e-1c03-4417-914e-23c4b52e4b58")
 		)
 		(instances
 			(project "DongTamV2"
@@ -2394,8 +2684,8 @@
 		)
 	)
 	(sheet
-		(at 106.045 44.45)
-		(size 38.1 7.62)
+		(at 106.045 42.545)
+		(size 38.1 9.525)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2406,7 +2696,7 @@
 		)
 		(uuid "64421711-110b-460c-9945-866904db2698")
 		(property "Sheetname" "4ValveDriveOutput1"
-			(at 106.045 43.7384 0)
+			(at 106.045 41.8334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,6 +2743,26 @@
 			)
 			(uuid "71ea342e-90af-48ba-ac27-cc4fdd0cd72a")
 		)
+		(pin "AnalogGND" passive
+			(at 144.145 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dcc79be6-7d70-4d89-bf10-ac0140badf07")
+		)
+		(pin "AnalogVCC" passive
+			(at 144.145 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2d23acf-eb5b-48ed-8c0c-4a729aa75742")
+		)
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/2c066284-8887-41f4-b61e-b40cb8a906fb"
@@ -2463,7 +2773,7 @@
 	)
 	(sheet
 		(at 106.045 73.025)
-		(size 38.1 7.62)
+		(size 38.1 9.525)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2483,7 +2793,7 @@
 			)
 		)
 		(property "Sheetfile" "ValveDriveOutput.kicad_sch"
-			(at 106.045 81.2296 0)
+			(at 106.045 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2802,7 @@
 			)
 		)
 		(pin "REF" input
-			(at 106.045 78.74 180)
+			(at 106.045 80.645 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2812,7 @@
 			(uuid "4cb1f60e-591f-4d25-9b55-4bf4ba78726a")
 		)
 		(pin "ValveInput[1..4]" input
-			(at 106.045 75.565 180)
+			(at 106.045 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +2822,7 @@
 			(uuid "8feb2243-2ea6-4a42-8af6-ed92aa9b7f07")
 		)
 		(pin "OpAmpOutput[1..4]" output
-			(at 144.145 75.565 0)
+			(at 144.145 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,6 +2830,26 @@
 				(justify right)
 			)
 			(uuid "85edaa8e-7fa5-4c99-8fbc-14b0e4077184")
+		)
+		(pin "AnalogGND" passive
+			(at 144.145 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "330ac6fe-5b08-4598-a278-3bbf13771ad6")
+		)
+		(pin "AnalogVCC" passive
+			(at 144.145 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e7293176-7af2-4663-80e3-c45c39b490f3")
 		)
 		(instances
 			(project "DongTamV2"

@@ -286,6 +286,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -391,6 +511,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.915 39.37) (xy 81.915 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461d0d73-1b10-4dda-81a1-07ff781f7be9")
+	)
+	(wire
+		(pts
 			(xy 102.235 77.47) (xy 113.665 77.47)
 		)
 		(stroke
@@ -401,7 +531,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.235 77.47) (xy 102.235 58.42)
+			(xy 102.235 77.47) (xy 102.235 52.705)
 		)
 		(stroke
 			(width 0)
@@ -441,13 +571,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.235 58.42) (xy 95.25 58.42)
+			(xy 93.345 39.37) (xy 89.535 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84c55af7-0bd2-4691-be9e-183e089fdb7d")
+		(uuid "80880f3b-8a47-4f11-8cf2-660377807552")
 	)
 	(bus
 		(pts
@@ -461,6 +591,26 @@
 	)
 	(wire
 		(pts
+			(xy 89.535 39.37) (xy 89.535 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911b39cb-4697-4840-8936-1352285dd9ad")
+	)
+	(wire
+		(pts
+			(xy 99.695 52.705) (xy 102.235 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973e5bf2-cae2-442d-bc3c-6f4f01a55502")
+	)
+	(wire
+		(pts
 			(xy 81.915 91.44) (xy 81.915 88.9)
 		)
 		(stroke
@@ -471,13 +621,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 41.91) (xy 81.915 47.625)
+			(xy 93.98 70.485) (xy 93.98 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c142aaa1-8840-474e-bfbb-32c751cf2a3d")
+		(uuid "ba76230e-9881-4310-a14a-a8b973a24513")
 	)
 	(wire
 		(pts
@@ -488,6 +638,30 @@
 			(type default)
 		)
 		(uuid "c4652c4f-4bef-4973-b615-f69bf207dafe")
+	)
+	(hierarchical_label "AnalogGND"
+		(shape passive)
+		(at 93.98 78.74 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "218a1753-b569-4846-aaf5-2d3c9503515f")
+	)
+	(hierarchical_label "AnalogVCC"
+		(shape passive)
+		(at 93.345 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65eaaa6c-c0c5-47d0-bfc5-5e028e850075")
 	)
 	(hierarchical_label "MCP41010{ST_SPI2}"
 		(shape input)
@@ -712,17 +886,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 81.915 41.91 0)
+		(lib_id "power:+5V")
+		(at 81.915 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a8b6d7a7-7a74-4ef1-b1ad-4a2d4e86a9fd")
-		(property "Reference" "#PWR048"
-			(at 81.915 45.72 0)
+		(uuid "a4232045-3f41-40f6-8c79-60760bf8c5f3")
+		(property "Reference" "#PWR052"
+			(at 81.915 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,8 +904,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 81.915 36.83 0)
+		(property "Value" "+5V"
+			(at 81.915 34.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,7 +913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.915 41.91 0)
+			(at 81.915 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -748,7 +922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.915 41.91 0)
+			(at 81.915 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,8 +930,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 81.915 41.91 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 81.915 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -766,12 +940,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d5d3e9a0-415a-4968-a16b-fff20eb10185")
+			(uuid "6f7d1bb6-5d1a-4cd0-845c-959467c1cc34")
 		)
 		(instances
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/c44414d4-f62b-4b90-ad16-4c8725291991"
-					(reference "#PWR048")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -879,7 +1053,7 @@
 			)
 		)
 		(pin "Output" output
-			(at 99.695 58.42 0)
+			(at 99.695 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,6 +1091,26 @@
 				(justify left)
 			)
 			(uuid "4401e46e-8c34-41e9-b03c-7366922c2303")
+		)
+		(pin "AnalogGND" passive
+			(at 93.98 70.485 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d2b81b0-bd04-4960-90b7-99a165f0a0d7")
+		)
+		(pin "AnalogVCC" passive
+			(at 89.535 47.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "95754c99-c2dc-465d-bfb1-8540876b872a")
 		)
 		(instances
 			(project "DongTamV2"

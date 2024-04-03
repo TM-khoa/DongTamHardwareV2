@@ -1595,6 +1595,17 @@
 		)
 		(uuid "568572b4-45f6-4378-8412-52a06d0ab3c9")
 	)
+	(label "74HC165_CascadeDATA"
+		(at 196.215 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f7e090b-21ed-48fe-9f6b-057b2770e9fd")
+	)
 	(label "VO_5"
 		(at 219.075 61.595 180)
 		(fields_autoplaced yes)

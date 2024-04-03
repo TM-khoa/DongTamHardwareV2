@@ -4751,17 +4751,6 @@
 		)
 		(uuid "9453e942-f557-4197-b109-337634881c38")
 	)
-	(label "PC14"
-		(at 97.79 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "954aa734-be15-46a3-aec5-8ecfe49c86c5")
-	)
 	(label "i2c.SDA"
 		(at 61.595 138.43 180)
 		(fields_autoplaced yes)

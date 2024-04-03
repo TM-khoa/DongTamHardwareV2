@@ -505,6 +505,18 @@
 		(color 0 0 0 0)
 		(uuid "a6d630db-fa59-4aab-94d0-75e7d75efbab")
 	)
+	(junction
+		(at 157.48 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1f9c2b1-8d89-4a3c-a9db-8d4470e105fb")
+	)
+	(junction
+		(at 157.48 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f88a4448-b422-45cb-a0d6-39c06e78fdd4")
+	)
 	(bus_entry
 		(at 101.6 104.14)
 		(size 2.54 -2.54)
@@ -591,6 +603,16 @@
 			(type default)
 		)
 		(uuid "36d0effd-ec23-4294-8e9e-bb4e9112fd43")
+	)
+	(wire
+		(pts
+			(xy 157.48 85.09) (xy 157.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418a3fef-4ba7-43dd-b6ec-1aa9b83db531")
 	)
 	(polyline
 		(pts
@@ -764,6 +786,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 68.58) (xy 168.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956b82b4-29d0-4452-93a5-f6e7da7306b0")
+	)
+	(wire
+		(pts
 			(xy 152.4 82.55) (xy 176.53 82.55)
 		)
 		(stroke
@@ -844,6 +876,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 95.25) (xy 168.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce48a263-d474-4f68-bcd9-b1b8c1ae6748")
+	)
+	(wire
+		(pts
 			(xy 130.175 85.09) (xy 132.08 85.09)
 		)
 		(stroke
@@ -914,16 +956,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 85.09) (xy 157.48 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f553b17e-f247-43e1-af52-31bfcc3f4b2a")
-	)
-	(wire
-		(pts
 			(xy 153.67 68.58) (xy 157.48 68.58)
 		)
 		(stroke
@@ -964,9 +996,9 @@
 		)
 		(uuid "0e47c3da-774a-49cb-b02f-c4a47e47e073")
 	)
-	(text "Giảm thiếu tiếp xúc giữa vùng digital và analog "
+	(text "Giảm thiếu tiếp xúc giữa vùng digital và analog, cần phải hàn trở này để cấp nguồn"
 		(exclude_from_sim no)
-		(at 166.37 62.865 0)
+		(at 173.99 62.865 0)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -974,9 +1006,9 @@
 		)
 		(uuid "563e1f68-6c65-4a4a-b7a3-64f33b76b542")
 	)
-	(text "Giảm thiếu tiếp xúc giữa vùng digital và analog "
+	(text "Giảm thiếu tiếp xúc giữa vùng digital và analog, cần phải hàn trở này để cấp nguồn"
 		(exclude_from_sim no)
-		(at 165.1 99.695 0)
+		(at 170.18 101.6 0)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -1051,17 +1083,6 @@
 		)
 		(uuid "47c0ebe8-3c79-4a5c-8924-a5057aceb70f")
 	)
-	(label "AnalogGND"
-		(at 157.48 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61868c68-2431-4fba-b494-c01f57ba67c3")
-	)
 	(label "MCP41010.SCK"
 		(at 130.175 80.01 180)
 		(fields_autoplaced yes)
@@ -1084,16 +1105,17 @@
 		)
 		(uuid "9fb8efb9-b554-4a43-82ab-89762d0fd6cd")
 	)
-	(label "AnalogVCC"
-		(at 157.48 68.58 0)
+	(hierarchical_label "AnalogGND"
+		(shape passive)
+		(at 168.91 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "dd2e4202-7fbd-46f1-a0ed-60f30adda5a0")
+		(uuid "1e7ec78f-7399-4403-b162-160e73bfa55b")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -1130,6 +1152,18 @@
 			(justify right)
 		)
 		(uuid "5ee5dee1-53f7-4103-a46c-36c5e6886512")
+	)
+	(hierarchical_label "AnalogVCC"
+		(shape passive)
+		(at 168.91 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3cd827c-1480-4f11-9f69-66ccbcc66ef7")
 	)
 	(hierarchical_label "VCC"
 		(shape passive)
