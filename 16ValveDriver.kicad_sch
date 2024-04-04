@@ -36,6 +36,12 @@
 		(uuid "9e55dd6a-310d-463c-a3a7-9d577b33c1cf")
 	)
 	(junction
+		(at 87.63 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1369192-ac8c-40d6-a6a6-b13bb5f70da1")
+	)
+	(junction
 		(at 150.495 60.325)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -777,6 +783,16 @@
 		)
 		(uuid "1593ecd2-e682-42ab-a08a-aaeafc2d1358")
 	)
+	(bus
+		(pts
+			(xy 87.63 75.565) (xy 87.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166dab7e-91f1-4166-b5be-a48fa098e1ea")
+	)
 	(wire
 		(pts
 			(xy 151.765 85.09) (xy 147.32 85.09)
@@ -1297,16 +1313,6 @@
 		)
 		(uuid "798cdb02-5246-41a8-9bfa-73e7cfd4163c")
 	)
-	(bus
-		(pts
-			(xy 85.09 77.47) (xy 106.045 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a95a730-de15-40a5-853c-8dd07ea1d3fa")
-	)
 	(wire
 		(pts
 			(xy 62.865 57.785) (xy 82.55 57.785)
@@ -1379,6 +1385,16 @@
 	)
 	(bus
 		(pts
+			(xy 85.09 77.47) (xy 87.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b283016-d6fb-42e9-ad02-df84848ef2b2")
+	)
+	(bus
+		(pts
 			(xy 187.325 32.385) (xy 187.325 36.83)
 		)
 		(stroke
@@ -1406,6 +1422,16 @@
 			(type default)
 		)
 		(uuid "8e502929-75b6-4454-a53c-8e74ea535044")
+	)
+	(bus
+		(pts
+			(xy 87.63 77.47) (xy 106.045 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eec85ea-75f2-44a3-b361-979f8d603260")
 	)
 	(bus
 		(pts
@@ -2206,7 +2232,7 @@
 		(uuid "8682fd7f-a9fe-41d8-b1f7-1103457c2c14")
 	)
 	(label "ValveDriver[13..16]"
-		(at 87.0509 77.4106 0)
+		(at 87.63 75.565 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
