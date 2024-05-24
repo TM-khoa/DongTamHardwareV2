@@ -2389,6 +2389,12 @@
 		(uuid "74636ad9-da03-44ed-8d0b-fc0d6de1c47b")
 	)
 	(junction
+		(at 52.07 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f31fb94-11ba-4028-ba8a-fd66de88216c")
+	)
+	(junction
 		(at 255.905 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2447,6 +2453,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce3222fa-5366-41af-bfd4-35c623dda69b")
+	)
+	(junction
+		(at 64.135 81.915)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7369b8f-5655-411f-ae88-d367c2ace8ad")
 	)
 	(junction
 		(at 98.425 38.1)
@@ -2631,6 +2643,16 @@
 		)
 		(uuid "00eb99d0-8b16-4e6a-976a-f2167eded7eb")
 	)
+	(wire
+		(pts
+			(xy 52.07 99.695) (xy 52.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058584fd-47ce-4c31-b9db-194761f7e78f")
+	)
 	(polyline
 		(pts
 			(xy 198.12 28.575) (xy 199.39 28.575)
@@ -2670,6 +2692,16 @@
 			(type default)
 		)
 		(uuid "0b958206-c6e1-4cb2-b2cb-414464be36cd")
+	)
+	(wire
+		(pts
+			(xy 64.135 81.915) (xy 64.135 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce4d1e2-d4f4-4fd0-8bf5-0fd9d60c58a7")
 	)
 	(wire
 		(pts
@@ -2783,6 +2815,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 107.95) (xy 64.135 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2236cb41-7011-47af-8165-d08e3f6c144e")
+	)
+	(wire
+		(pts
 			(xy 39.37 45.085) (xy 39.37 47.625)
 		)
 		(stroke
@@ -2883,7 +2925,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 107.95) (xy 64.135 107.95)
+			(xy 48.26 107.95) (xy 52.07 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3643,6 +3685,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 92.075) (xy 52.07 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a953e032-ac9d-40b3-ac57-2052892b10c5")
+	)
+	(wire
+		(pts
 			(xy 93.345 140.97) (xy 112.395 140.97)
 		)
 		(stroke
@@ -3743,7 +3795,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.135 80.01) (xy 64.135 83.185)
+			(xy 64.135 80.01) (xy 64.135 81.915)
 		)
 		(stroke
 			(width 0)
@@ -4210,6 +4262,16 @@
 			(type default)
 		)
 		(uuid "eb8b826d-29ac-4da1-bba1-87803069a8e8")
+	)
+	(wire
+		(pts
+			(xy 52.07 81.915) (xy 64.135 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe23fc5-a1b5-461f-90d8-1884ea4b5cb0")
 	)
 	(bus
 		(pts
@@ -5357,7 +5419,7 @@
 	)
 	(hierarchical_label "PCF8563_CLKOUT"
 		(shape input)
-		(at 60.96 107.95 180)
+		(at 48.26 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6254,6 +6316,76 @@
 			(project "dongtam"
 				(path "/6833aec4-3d1d-4261-9b3e-f0452b565dd3/dd5cb153-c90e-4ac8-8afa-001258760033"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thu_vien_kicad:R")
+		(at 52.07 95.885 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57d0cf92-9af1-4914-a9a8-0a3d8871ec6a")
+		(property "Reference" "R120"
+			(at 54.61 93.345 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 49.53 93.345 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SpiritBoi_Footprint_Library:R_0603"
+			(at 50.292 95.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e799dc5-ba50-4e8d-92ee-62f66ab9118b")
+		)
+		(pin "2"
+			(uuid "b9c32832-f975-46e6-ac78-bf602d405f5b")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7/de1d919d-cc07-489f-afed-971dd930ed54"
+					(reference "R120")
 					(unit 1)
 				)
 			)
