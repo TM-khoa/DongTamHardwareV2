@@ -4417,7 +4417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4148W"
 			(at 74.93 119.3799 90)
 			(effects
 				(font
@@ -5443,7 +5443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4148W"
 			(at 74.93 161.2899 90)
 			(effects
 				(font
@@ -6122,7 +6122,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4148W"
 			(at 74.93 26.6699 90)
 			(effects
 				(font
@@ -6204,7 +6204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4148W"
 			(at 74.93 72.3899 90)
 			(effects
 				(font
