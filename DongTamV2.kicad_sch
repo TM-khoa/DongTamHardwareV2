@@ -1422,6 +1422,16 @@
 		)
 		(uuid "224855dc-979c-411e-a2d2-bf6eee180a1b")
 	)
+	(wire
+		(pts
+			(xy 47.625 92.075) (xy 43.18 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22755207-6e03-4b4e-97bd-b3006b9fd344")
+	)
 	(bus
 		(pts
 			(xy 114.3 95.25) (xy 109.22 95.25)
@@ -1751,6 +1761,16 @@
 			(type default)
 		)
 		(uuid "64b8e9ec-40ee-4d68-a990-3118334684b2")
+	)
+	(wire
+		(pts
+			(xy 43.18 114.935) (xy 53.34 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6561d145-df05-4f9f-aa6f-eee577e7ee3f")
 	)
 	(wire
 		(pts
@@ -2131,6 +2151,16 @@
 			(type default)
 		)
 		(uuid "c7385e06-97cc-4051-8541-2889a83c209b")
+	)
+	(wire
+		(pts
+			(xy 43.18 92.075) (xy 43.18 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73adba5-5b40-4a14-81bc-31b93ca4b80b")
 	)
 	(wire
 		(pts
@@ -4928,6 +4958,54 @@
 			(project "DongTamV2"
 				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 47.625 80.645)
+		(size 27.305 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 15 122 255 1.0000)
+		)
+		(uuid "2032c02b-7ea9-44f6-aa26-9b296c4c6e7a")
+		(property "Sheetname" "HW685"
+			(at 47.625 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HW685.kicad_sch"
+			(at 47.625 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4-20mA" output
+			(at 47.625 92.075 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a69529b-74a9-46dc-a6a6-6030df174953")
+		)
+		(instances
+			(project "DongTamV2"
+				(path "/2303d546-b88a-4ab0-aee1-26e3b32ac9d7"
+					(page "23")
 				)
 			)
 		)

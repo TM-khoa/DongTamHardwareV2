@@ -95,13 +95,13 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -498,7 +498,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./DongTamV2.1",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -809,6 +809,10 @@
     [
       "cc670c6f-3f82-4b76-93c6-3351815d472d",
       "ConverterVoltTo4_20mA"
+    ],
+    [
+      "2032c02b-7ea9-44f6-aa26-9b296c4c6e7a",
+      "HW685"
     ],
     [
       "c600683c-bdbc-4b87-a874-b1d5badfcacc",
